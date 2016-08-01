@@ -13,6 +13,20 @@ async plugin 입니다. 본 브로그램에서는 neovim에 대한 소개와 장
 제목처럼 python으로 neovim async plugin을 개발하는 법을 다뤄보록 하겠습니다.
 
 ---
+class: middle
+
+# 발표자
+
+## 송재학
+
+* 현재 백수생활 중
+
+* (전) 문래빗 주식회사 대표
+  * 판타지x러너즈 for 카카오 서버 개발 (python)
+
+* omnisharp-sublime (sublime text를 위한 C# IDE 플러그인)
+
+---
 
 class: center, middle
 
@@ -61,7 +75,57 @@ class: middle
 class: middle, center
 
 # 더 강력한 플러그인
-이번에는 여기에만 집중해봅시다.
+오늘은 여기에만 집중해봅시다.
 
 ---
 
+class: middle
+
+## 더 강력한 플러그인
+  
+  * 핵심은 msgpack-rpc
+
+---
+
+class: middle
+
+# msgpack-rpc
+ * neovim은 서버로 동작함
+ * stdin/stdout, socket을 통해 neovim의 RPC API를 사용할 수 있음
+
+---
+
+class: middle
+
+# Hello World!
+한번 해봅시다.
+
+---
+
+# Hello World!
+### 0. python-neovim 설치
+
+```bash
+> pip install neovim
+```
+
+--
+
+### 1. neovim 실행
+
+```bash
+> # NVIM_LISTEN_ADDRESS: neovim의 RPC 주소 지정
+> NVIM_LISTEN_ADDRESS=127.0.0.1:121212 nvim
+```
+
+--
+
+### 2. python REPL에서 명령어 실행
+
+``` python
+> python
+>>> from neovim import attach
+>>> nvim = attach('socket', path='127.0.0.1:121212')
+>>> nvim.command('echo "hello world!"')
+
+```
