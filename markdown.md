@@ -35,12 +35,8 @@ class: middle
 # 현황
 #### (2016.08.01 기준)
 
---
-
 * stable version: v0.1.4
   * 안정적이고 실사용 가능함
-
---
 
 * github repository
   * 활성화 되어있음
@@ -50,35 +46,22 @@ class: middle
 ---
 
 class: middle
-# neovim vs vim
-
---
-
-- 더 강력한 플러그인
-
-- 더 나은 기본 설정과 기본 기능
-
-- embedding에 적합함
-
-- vim에서 쉽게 이전할 수 있음
-
----
-
-class: middle
-# neovim vs vim
+# 특징 
 
 - **더 강력한 플러그인**
 
-- 더 나은 기본 설정과 기본 기능
+- 더 나은 기본 기능과 설정 
 
-- embedding에 적합함
+- 기본으로 내장된 embedding
 
-- vim에서 쉽게 이전할 수 있음
-
+- vim에서 쉽게 옮길 수 있음
 
 ---
 
-class: middle
-## 더 강력한 플러그인??
+class: middle, center
 
+# 더 강력한 플러그인
+이번에는 여기에만 집중해봅시다.
+
+---
 
