@@ -1,310 +1,1470 @@
 {
-  "command": null,
-  "env": {
-    "SHELL": "/usr/local/bin/zsh",
-    "TERM": "xterm-256color"
-  },
-  "duration": 28.439394,
-  "version": 1,
-  "height": 43,
-  "title": null,
+  "duration": 69.771342,
+  "height": 46,
   "stdout": [
     [
-      0.469256,
+      0.458056,
       "\u001b]0;~/Projects/pycon2016_program31\u0007"
     ],
     [
-      0.052503,
+      0.054739,
       "\r\n\u001b[34m~/Projects/pycon2016_program31\u001b[39m\u001b[38;5;242m gh-pages\u001b[39m\u001b[36m\u001b[39m\u001b[33m\u001b[39m\r\n"
     ],
     [
-      0.000282,
+      0.000258,
       "\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[35m❯\u001b[39m \u001b[K"
     ],
     [
-      0.000158,
+      0.000222,
       "\u001b[?1h\u001b="
     ],
     [
-      0.000248,
+      0.000358,
       "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[35m❯\u001b[39m \u001b[K"
     ],
     [
-      4.4e-05,
+      2.7e-05,
       "\u001b[?2004h"
     ],
     [
-      0.018224,
-      "\u001b[1A\u001b[159D\u001b[34m~/Projects/pycon2016_program31\u001b[39m\u001b[38;5;242m gh-pages*\u001b[39m\u001b[36m\u001b[39m\u001b[33m\u001b[39m\u001b[K\r\n"
+      0.016472,
+      "\u001b[1A\u001b[146D\u001b[34m~/Projects/pycon2016_program31\u001b[39m\u001b[38;5;242m gh-pages*\u001b[39m\u001b[36m\u001b[39m\u001b[33m\u001b[39m\u001b[K\r\n"
     ],
     [
-      0.000128,
+      7.9e-05,
       "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[35m❯\u001b[39m \u001b[K"
     ],
     [
-      1.070239,
+      0.400037,
       "t"
     ],
     [
-      0.134763,
+      0.127642,
       "\btm"
     ],
     [
-      0.224027,
+      0.231763,
       "u"
     ],
     [
-      0.111975,
+      0.063785,
       "x"
     ],
     [
-      0.176168,
+      0.200253,
       "\u001b[?1l\u001b>"
     ],
     [
-      0.000202,
+      0.000353,
       "\u001b[?2004l\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[35m❯\u001b[39m tmux\u001b[K"
     ],
     [
-      9.6e-05,
+      8.2e-05,
       "\r\r\n"
     ],
     [
-      0.000736,
+      0.001033,
       "\u001b]0;pycon2016_program31: tmux\u0007"
     ],
     [
-      0.011634,
-      "\u001b[?1049h\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b]112\u0007\u001b[?25l\u001b[1;1H\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[30m\u001b[42m[11] 0:reattach-to-user-namespace*                                                                                          \"jaehak-macbook-pro\" 18:12 01- 8-16\u001b(B\u001b[m\u001b[43;1H\u001b[1;43r\u001b[H\u001b[?12l\u001b[?25h"
+      0.012984,
+      "\u001b[?1049h\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b]112\u0007\u001b[?25l\u001b[1;1H\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[30m\u001b[42m[14] 0:reattach-to-user-namespace*                                                                             \"jaehak-macbook-pro\" 22:20 02- 8-16\u001b(B\u001b[m\u001b[46;1H\u001b[1;46r\u001b[H\u001b[?12l\u001b[?25h"
     ],
     [
-      0.43191,
-      "\u001b[?25l\u001b[43d\u001b[30m\u001b[42m[11] 0:reattach-to-user-namespace*                                                                                       \"~/Projects/pycon2016_\" 18:12 01- 8-16\u001b(B\u001b[m\u001b[1;1H\u001b[?12l\u001b[?25h"
+      0.441652,
+      "\u001b[?25l\u001b[46d\u001b[30m\u001b[42m[14] 0:reattach-to-user-namespace*                                                                          \"~/Projects/pycon2016_\" 22:20 02- 8-16\u001b(B\u001b[m\u001b[1;1H\u001b[?12l\u001b[?25h"
     ],
     [
-      0.000318,
-      "\u001b[?25l\u001b[43d\u001b[30m\u001b[42m[11] 0:zsh*                                                                                                              \"~/Projects/pycon2016_\" 18:12 01- 8-16\u001b(B\u001b[m\u001b[1;1H\u001b[?12l\u001b[?25h"
+      0.000321,
+      "\u001b[?25l\u001b[46d\u001b[30m\u001b[42m[14] 0:zsh*                                                                                                 \"~/Projects/pycon2016_\" 22:20 02- 8-16\u001b(B\u001b[m\u001b[1;1H\u001b[?12l\u001b[?25h"
     ],
     [
-      0.051327,
-      "\u001b[1;42r\r\n\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages\u001b[1;43r\u001b[H\u001b[2B\u001b(B\u001b[m"
+      0.051901,
+      "\u001b[1;45r\r\n\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages\u001b[1;46r\u001b[H\u001b[2B\u001b(B\u001b[m"
     ],
     [
-      0.000258,
-      "\u001b[1;42r\u001b[H\u001b[2B\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[3d\u001b[35m❯\u001b[39m \u001b[1;43r\u001b[H\u001b[3;3H\u001b[K"
+      0.000225,
+      "\u001b[1;45r\u001b[H\u001b[2B\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[3d\u001b[35m❯\u001b[39m \u001b[K\u001b[1;46r\u001b[H\u001b[3;3H"
     ],
     [
-      8.1e-05,
+      3.9e-05,
       "\u001b[?1h\u001b="
     ],
     [
-      0.000282,
-      "\u001b[1;42r\u001b[H\u001b[2B\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[3d\u001b[35m❯\u001b[39m \u001b[K\u001b[1;43r\u001b[H\u001b[3;3H"
+      0.000285,
+      "\u001b[1;45r\u001b[H\u001b[2B\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[3d\u001b[35m❯\u001b[39m \u001b[K\u001b[1;46r\u001b[H\u001b[3;3H"
     ],
     [
-      0.000168,
+      2.4e-05,
       "\u001b[?2004h"
     ],
     [
-      0.01771,
-      "\u001b[1;42r\u001b[H\r\n\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages*\u001b[39m\u001b[K\u001b[1;43r\u001b[H\u001b[2B"
-    ],
-    [
-      0.000148,
-      "\u001b[1;42r\u001b[H\u001b[2B\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[3d\u001b[35m❯\u001b[39m \u001b[K\u001b[1;43r\u001b[H\u001b[3;3H"
-    ],
-    [
-      1.3829,
-      "\u001b[?25l\u001b[1;80H│\u001b[2;80H│\u001b[3;80H│\u001b[4;80H│\u001b[5;80H│\u001b[6;80H│\u001b[7;80H│\u001b[8;80H│\u001b[9;80H│\u001b[10;80H│\u001b[11;80H│\u001b[12;80H│\u001b[13;80H│\u001b[14;80H│\u001b[15;80H│\u001b[16;80H│\u001b[17;80H│\u001b[18;80H│\u001b[19;80H│\u001b[20;80H│\u001b[21;80H│\u001b[22;80H│\u001b[32m\u001b[23;80H│\u001b[24;80H│\u001b[25;80H│\u001b[26;80H│\u001b[27;80H│\u001b[28;80H│\u001b[29;80H│\u001b[30;80H│\u001b[31;80H│\u001b[32;80H│\u001b[33;80H│\u001b[34;80H│\u001b[35;80H│\u001b[36;80H│\u001b[37;80H│\u001b[38;80H│\u001b[39;80H│\u001b[40;80H│\u001b[41;80H│\u001b[42;80H│\u001b[H\u001b(B\u001b[m                                                                               \r\n\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages*\u001b[39m                                       \r\n\u001b[35m❯\u001b[39m                                                                              \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                "
-    ],
-    [
-      0.000464,
-      "                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n   "
+      0.017226,
+      "\u001b[1;45r\u001b[H\r\n\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages*\u001b[39m\u001b[K\u001b[1;46r\u001b[H\u001b[2B"
     ],
     [
       3.4e-05,
-      "                                                                            \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                       "
+      "\u001b[1;45r\u001b[H\u001b[2B\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[3d\u001b[35m❯\u001b[39m \u001b[K\u001b[1;46r\u001b[H\u001b[3;3H"
     ],
     [
-      0.000113,
-      "                        \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \u001b[1;81H\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\r\n\u001b[30m\u001b[42m[11]"
+      1.371561,
+      "\u001b[?25l\u001b[1;74H│\u001b[2;74H│\u001b[3;74H│\u001b[4;74H│\u001b[5;74H│\u001b[6;74H│\u001b[7;74H│\u001b[8;74H│\u001b[9;74H│\u001b[10;74H│\u001b[11;74H│\u001b[12;74H│\u001b[13;74H│\u001b[14;74H│\u001b[15;74H│\u001b[16;74H│\u001b[17;74H│\u001b[18;74H│\u001b[19;74H│\u001b[20;74H│\u001b[21;74H│\u001b[22;74H│\u001b[23;74H│\u001b[32m\u001b[24;74H│\u001b[25;74H│\u001b[26;74H│\u001b[27;74H│\u001b[28;74H│\u001b[29;74H│\u001b[30;74H│\u001b[31;74H│\u001b[32;74H│\u001b[33;74H│\u001b[34;74H│\u001b[35;74H│\u001b[36;74H│\u001b[37;74H│\u001b[38;74H│\u001b[39;74H│\u001b[40;74H│\u001b[41;74H│\u001b[42;74H│\u001b[43;74H│\u001b[44;74H│\u001b[45;74H│\u001b[H\u001b(B\u001b[m                                                                         \r\n\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages*\u001b[39m                                 \r\n\u001b[35m❯\u001b[39m                                                                        \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                   "
     ],
     [
-      4.1e-05,
-      " 0:zsh*                                                                                                                 \"jaehak-macbook-pro\" 18:12 01- 8-16\u001b(B\u001b[m\u001b[1;81H\u001b[?12l\u001b[?25h\u001b[?1l\u001b>\u001b[?2004l\u001b[?25l\u001b[43;1H\u001b[30m\u001b[42m[11] 0:tmux*                                                                                                                \"jaehak-macbook-pro\" 18:12 01- 8-16\u001b(B\u001b[m\u001b[1;81H\u001b[?12l\u001b[?25h"
+      0.000406,
+      "                                      \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n         "
     ],
     [
-      0.000243,
-      "\u001b[1;42r\u001b[H\u001b[2B                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                      "
+      4.2e-05,
+      "                                                                \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                          "
     ],
     [
-      2.9e-05,
-      "                                         \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n         "
+      0.00013,
+      "               \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \u001b[1;75H\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b"
     ],
     [
-      5.1e-05,
-      "                                                                      \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                                               \r\n                                                             "
+      0.000125,
+      "[K\r\n\u001b[30m\u001b[42m[14] 0:zsh*                                                                                                    \"jaehak-macbook-pro\" 22:20 02- 8-16\u001b(B\u001b[m\u001b[1;75H\u001b[?12l\u001b[?25h\u001b[?1l\u001b>\u001b[?2004l\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:tmux*                                                                                                   \"jaehak-macbook-pro\" 22:20 02- 8-16\u001b(B\u001b[m\u001b[1;75H\u001b[?12l\u001b[?25h\u001b[1;45r\u001b[H\u001b[2B                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                "
     ],
     [
-      0.000105,
-      "                  \r\n                                                                               \r\n                                                                               \u001b[3;1H\u001b[35m❯\u001b[39m \u001b[1;43r\u001b[H\u001b[80C"
-    ],
-    [
-      0.427431,
-      "\u001b[?25l\u001b[43;1H\u001b[30m\u001b[42m[11] 0:tmux*                                                                                                             \"~/Projects/pycon2016_\" 18:12 01- 8-16\u001b(B\u001b[m\u001b[1;81H\u001b[?12l\u001b[?25h"
-    ],
-    [
-      0.052098,
-      "\u001b[1;42r\u001b[H\u001b[2;81H\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages\u001b[1;43r\u001b[H\u001b[3;81H\u001b(B\u001b[m"
-    ],
-    [
-      0.000252,
-      "\u001b[1;42r\u001b[H\u001b[3;81H                                                                               \u001b[4;81H                                                                               \u001b[5;81H                                                                               \u001b[6;81H                                                                               \u001b[7;81H                                                                               \u001b[8;81H                                                                               \u001b[9;81H                                                                               \u001b[10;81H                                                                               \u001b[11;81H                                                                               \u001b[12;81H                                                                               \u001b[13;81H                                                                               \u001b[14;81H                                                        "
-    ],
-    [
-      2.5e-05,
-      "                       \u001b[15;81H                                                                               \u001b[16;81H                                                                               \u001b[17;81H                                                                               \u001b[18;81H                                                                               \u001b[19;81H                                                                               \u001b[20;81H                                                                               \u001b[21;81H                                                                               \u001b[22;81H                                                                               \u001b[23;81H                                                                               \u001b[24;81H                                                                               \u001b[25;81H                                                                               \u001b[26;81H                                    "
-    ],
-    [
-      9.4e-05,
-      "                                           \u001b[27;81H                                                                               \u001b[28;81H                                                                               \u001b[29;81H                                                                               \u001b[30;81H                                                                               \u001b[31;81H                                                                               \u001b[32;81H                                                                               \u001b[33;81H                                                                               \u001b[34;81H                                                                               \u001b[35;81H                                                                               \u001b[36;81H                                                                               \u001b[37;81H                                                                               \u001b[38;81H                "
-    ],
-    [
-      6.7e-05,
-      "                                                               \u001b[39;81H                                                                               \u001b[40;81H                                                                               \u001b[41;81H                                                                               \u001b[42;81H                                                                               \u001b[3;81H\u001b[35m❯\u001b[39m                                                                              \u001b[3;1H\u001b[1;43r\u001b[H\u001b[3;83H"
-    ],
-    [
-      0.00028,
-      "\u001b[?1h\u001b=\u001b[1;42r\u001b[H\u001b[3;81H                                                                               \u001b[4;81H                                                                               \u001b[5;81H                                                                               \u001b[6;81H                                                                               \u001b[7;81H                                                                               \u001b[8;81H                                                                               \u001b[9;81H                                                                               \u001b[10;81H                                                                               \u001b[11;81H                                                                               \u001b[12;81H                                                                               \u001b[13;81H                                                                               \u001b[14;81H                                                 "
-    ],
-    [
-      3.2e-05,
-      "                              \u001b[15;81H                                                                               \u001b[16;81H                                                                               \u001b[17;81H                                                                               \u001b[18;81H                                                                               \u001b[19;81H                                                                               \u001b[20;81H                                                                               \u001b[21;81H                                                                               \u001b[22;81H                                                                               \u001b[23;81H                                                                               \u001b[24;81H                                                                               \u001b[25;81H                                                                               \u001b[26;81H                             "
-    ],
-    [
-      0.000117,
-      "                                                  \u001b[27;81H                                                                               \u001b[28;81H                                                                               \u001b[29;81H                                                                               \u001b[30;81H                                                                               \u001b[31;81H                                                                               \u001b[32;81H                                                                               \u001b[33;81H                                                                               \u001b[34;81H                                                                               \u001b[35;81H                                                                               \u001b[36;81H                                                                               \u001b[37;81H                                                                               \u001b[38;81H         "
-    ],
-    [
-      4.3e-05,
-      "                                                                      \u001b[39;81H                                                                               \u001b[40;81H                                                                               \u001b[41;81H                                                                               \u001b[42;81H                                                                               \u001b[3;81H\u001b[35m❯\u001b[39m                                                                              \u001b[3;1H\u001b[1;43r\u001b[H\u001b[3;83H"
-    ],
-    [
-      4.8e-05,
-      "\u001b[?2004h"
-    ],
-    [
-      0.016242,
-      "\u001b[1;42r\u001b[H\u001b[2;81H\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages*\u001b[39m                                       \u001b[2;1H\u001b[1;43r\u001b[H\u001b[3;81H"
-    ],
-    [
-      0.000255,
-      "\u001b[1;42r\u001b[H\u001b[3;81H                                                                               \u001b[4;81H                                                                               \u001b[5;81H                                                                               \u001b[6;81H                                                                               \u001b[7;81H                                                                               \u001b[8;81H                                                                               \u001b[9;81H                                                                               \u001b[10;81H                                                                               \u001b[11;81H                                                                               \u001b[12;81H                                                                               \u001b[13;81H                                                                               \u001b[14;81H                                                        "
-    ],
-    [
-      3.7e-05,
-      "                       \u001b[15;81H                                                                               \u001b[16;81H                                                                               \u001b[17;81H                                                                               \u001b[18;81H                                                                               \u001b[19;81H                                                                               \u001b[20;81H                                                                               \u001b[21;81H                                                                               \u001b[22;81H                                                                               \u001b[23;81H                                                                               \u001b[24;81H                                                                               \u001b[25;81H                                                                               \u001b[26;81H                                    "
-    ],
-    [
-      0.000103,
-      "                                           \u001b[27;81H                                                                               \u001b[28;81H                                                                               \u001b[29;81H                                                                               \u001b[30;81H                                                                               \u001b[31;81H                                                                               \u001b[32;81H                                                                               \u001b[33;81H                                                                               \u001b[34;81H                                                                               \u001b[35;81H                                                                               \u001b[36;81H                                                                               \u001b[37;81H                                                                               \u001b[38;81H                "
-    ],
-    [
-      3.8e-05,
-      "                                                               \u001b[39;81H                                                                               \u001b[40;81H                                                                               \u001b[41;81H                                                                               \u001b[42;81H                                                                               \u001b[3;81H\u001b[35m❯\u001b[39m                                                                              \u001b[3;1H\u001b[1;43r\u001b[H\u001b[3;83H"
-    ],
-    [
-      0.284594,
-      "\u001b[?25l\u001b[43;1H\u001b[30m\u001b[42m[11] 0:zsh*                                                                                                              \"~/Projects/pycon2016_\" 18:12 01- 8-16\u001b(B\u001b[m\u001b[3;83H\u001b[?12l\u001b[?25h"
-    ],
-    [
-      0.320286,
-      "\u001b[?25l\u001b[32m\u001b[1;80H│\u001b[2;80H│\u001b[3;80H│\u001b[4;80H│\u001b[5;80H│\u001b[6;80H│\u001b[7;80H│\u001b[8;80H│\u001b[9;80H│\u001b[10;80H│\u001b[11;80H│\u001b[12;80H│\u001b[13;80H│\u001b[14;80H│\u001b[15;80H│\u001b[16;80H│\u001b[17;80H│\u001b[18;80H│\u001b[19;80H│\u001b[20;80H│\u001b[21;80H│\u001b[22;80H│\u001b[39m\u001b[23;80H│\u001b[24;80H│\u001b[25;80H│\u001b[26;80H│\u001b[27;80H│\u001b[28;80H│\u001b[29;80H│\u001b[30;80H│\u001b[31;80H│\u001b[32;80H│\u001b[33;80H│\u001b[34;80H│\u001b[35;80H│\u001b[36;80H│\u001b[37;80H│\u001b[38;80H│\u001b[39;80H│\u001b[40;80H│\u001b[41;80H│\u001b[42;80H│\u001b(B\u001b[m\u001b[3;3H\u001b[?12l\u001b[?25h"
-    ],
-    [
-      0.792237,
-      "\u001b[1;42r\u001b[H\u001b[3;3Hv\u001b[1;43r\u001b[H\u001b[3;4H"
-    ],
-    [
-      0.119281,
-      "\u001b[1;42r\u001b[H\u001b[3;3Hvi\u001b[1;43r\u001b[H\u001b[3;5H"
-    ],
-    [
-      0.151993,
-      "\u001b[1;42r\u001b[H\u001b[3;5Hm\u001b[1;43r\u001b[H\u001b[3;6H"
-    ],
-    [
-      0.57632,
-      "\u001b[1;42r\u001b[H\u001b[3;5H \u001b[1;43r\u001b[H\u001b[3;5H"
-    ],
-    [
-      0.191651,
-      "\u001b[1;42r\u001b[H\u001b[3;3Hv \u001b[1;43r\u001b[H\u001b[3;4H"
-    ],
-    [
-      0.168002,
-      "\u001b[1;42r\u001b[H\u001b[3;3H \u001b[1;43r\u001b[H\u001b[3;3H"
-    ],
-    [
-      19.113837,
-      "\r\n\u001b[?2004l"
-    ],
-    [
-      0.006965,
-      "\u001b[1;42r\u001b[H\u001b[4BThank you. Come again!\r\n  -- Dr. Apu Nahasapeemapetilon\u001b[1;43r\u001b[H\u001b[6B"
-    ],
-    [
-      0.001531,
-      "\u001b[?25l\u001b[H\u001b[K\r\n\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages*\u001b[39m\u001b[K\r\n\u001b[35m❯\u001b[39m \u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[30m\u001b[42m[11] 0:zsh*                                                                                                              \"~/Projects/pycon2016_\" 18:12 01- 8-16\u001b(B\u001b[m\u001b[3;3H\u001b[?12l\u001b[?25h\u001b[?2004h"
-    ],
-    [
-      0.000189,
-      "\u001b[1;42r\u001b[H\u001b[2B\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[3d\u001b[35m❯\u001b[39m \u001b[1;43r\u001b[H\u001b[3;3H"
-    ],
-    [
-      0.279072,
-      "\r\n\u001b[?2004l"
-    ],
-    [
-      0.00721,
-      "\u001b[1;42r\u001b[H\u001b[4BThank you. Come again!\r\n  -- Dr. Apu Nahasapeemapetilon\u001b[1;43r\u001b[H\u001b[6B"
-    ],
-    [
-      0.001316,
-      "\u001b[1;43r\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b]112\u0007\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b[?1049l"
-    ],
-    [
-      0.000157,
-      "[exited]\r\n"
-    ],
-    [
-      0.010991,
-      "\u001b]0;~/Projects/pycon2016_program31"
-    ],
-    [
-      3.3e-05,
-      "\u0007"
-    ],
-    [
-      0.043182,
-      "\r\n\u001b[34m~/Projects/pycon2016_program31\u001b[39m\u001b[38;5;242m gh-pages*\u001b[39m\u001b[36m\u001b[39m\u001b[33m 24s\u001b[39m\r\n"
+      2.6e-05,
+      "                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                 "
     ],
     [
       5.4e-05,
-      "\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[35m❯\u001b[39m \u001b[K\u001b[?1h\u001b="
+      "        \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                       "
     ],
     [
-      0.000124,
-      "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[35m❯\u001b[39m \u001b[K"
+      4.5e-05,
+      "                                  \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \u001b[3;1H\u001b[35m❯\u001b[39m \u001b[1;46r\u001b[H\u001b[74C"
     ],
     [
-      6.1e-05,
+      0.436752,
+      "\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:tmux*                                                                                                \"~/Projects/pycon2016_\" 22:20 02- 8-16\u001b(B\u001b[m\u001b[1;75H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.051837,
+      "\u001b[1;45r\u001b[H\u001b[2;75H\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages\u001b[1;46r\u001b[H\u001b[3;75H\u001b(B\u001b[m"
+    ],
+    [
+      0.000324,
+      "\u001b[1;45r\u001b[H\u001b[3;75H                                                                        \u001b[4;75H                                                                        \u001b[5;75H                                                                        \u001b[6;75H                                                                        \u001b[7;75H                                                                        \u001b[8;75H                                                                        \u001b[9;75H                                                                        \u001b[10;75H                                                                        \u001b[11;75H                                                                        \u001b[12;75H                                                                        \u001b[13;75H                                                                        \u001b[14;75H                                                                        \u001b[15;75H                                                     "
+    ],
+    [
+      2.5e-05,
+      "                   \u001b[16;75H                                                                        \u001b[17;75H                                                                        \u001b[18;75H                                                                        \u001b[19;75H                                                                        \u001b[20;75H                                                                        \u001b[21;75H                                                                        \u001b[22;75H                                                                        \u001b[23;75H                                                                        \u001b[24;75H                                                                        \u001b[25;75H                                                                        \u001b[26;75H                                                                        \u001b[27;75H                                                                        \u001b[28;75H                                     "
+    ],
+    [
+      0.000107,
+      "                                   \u001b[29;75H                                                                        \u001b[30;75H                                                                        \u001b[31;75H                                                                        \u001b[32;75H                                                                        \u001b[33;75H                                                                        \u001b[34;75H                                                                        \u001b[35;75H                                                                        \u001b[36;75H                                                                        \u001b[37;75H                                                                        \u001b[38;75H                                                                        \u001b[39;75H                                                                        \u001b[40;75H                                                                        \u001b[41;75H                     "
+    ],
+    [
+      0.000107,
+      "                                                   \u001b[42;75H                                                                        \u001b[43;75H                                                                        \u001b[44;75H                                                                        \u001b[45;75H                                                                        \u001b[3;75H\u001b[35m❯\u001b[39m                                                                       \u001b[3;1H\u001b[1;46r\u001b[H\u001b[3;77H"
+    ],
+    [
+      0.00025,
+      "\u001b[?1h\u001b=\u001b[1;45r\u001b[H\u001b[3;75H                                                                        \u001b[4;75H                                                                        \u001b[5;75H                                                                        \u001b[6;75H                                                                        \u001b[7;75H                                                                        \u001b[8;75H                                                                        \u001b[9;75H                                                                        \u001b[10;75H                                                                        \u001b[11;75H                                                                        \u001b[12;75H                                                                        \u001b[13;75H                                                                        \u001b[14;75H                                                                        \u001b[15;75H                                              "
+    ],
+    [
+      4.3e-05,
+      "                          \u001b[16;75H                                                                        \u001b[17;75H                                                                        \u001b[18;75H                                                                        \u001b[19;75H                                                                        \u001b[20;75H                                                                        \u001b[21;75H                                                                        \u001b[22;75H                                                                        \u001b[23;75H                                                                        \u001b[24;75H                                                                        \u001b[25;75H                                                                        \u001b[26;75H                                                                        \u001b[27;75H                                                                        \u001b[28;75H                              "
+    ],
+    [
+      5e-05,
+      "                                          \u001b[29;75H                                                                        \u001b[30;75H                                                                        \u001b[31;75H                                                                        \u001b[32;75H                                                                        \u001b[33;75H                                                                        \u001b[34;75H                                                                        \u001b[35;75H                                                                        \u001b[36;75H                                                                        \u001b[37;75H                                                                        \u001b[38;75H                                                                        \u001b[39;75H                                                                        \u001b[40;75H                                                                        \u001b[41;75H              "
+    ],
+    [
+      5e-05,
+      "                                                          \u001b[42;75H                                                                        \u001b[43;75H                                                                        \u001b[44;75H                                                                        \u001b[45;75H                                                                        \u001b[3;75H\u001b[35m❯\u001b[39m                                                                       \u001b[3;1H\u001b[1;46r\u001b[H\u001b[3;77H"
+    ],
+    [
+      3.3e-05,
       "\u001b[?2004h"
     ],
     [
-      1.712884,
+      0.016621,
+      "\u001b[1;45r\u001b[H\u001b[2;75H\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages*\u001b[39m                                \u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:zsh*                                                                                                 \"~/Projects/pycon2016_\" 22:20 02- 8-16\u001b(B\u001b[m\u001b[46;1H\u001b[1;46r\u001b[H\u001b[3;75H\u001b[?12l\u001b[?25h\u001b[1;45r\u001b[H\u001b[3;75H                                                                        \u001b[4;75H                                                                        \u001b[5;75H                                                                        \u001b[6;75H                                                                        \u001b[7;75H                                                                        \u001b[8;75H                                                                        \u001b[9;75H                                                                        \u001b[10;75H                                                                        \u001b[11;75H                                                    "
+    ],
+    [
+      7.1e-05,
+      "                    \u001b[12;75H                                                                        \u001b[13;75H                                                                        \u001b[14;75H                                                                        \u001b[15;75H                                                                        \u001b[16;75H                                                                        \u001b[17;75H                                                                        \u001b[18;75H                                                                        \u001b[19;75H                                                                        \u001b[20;75H                                                                        \u001b[21;75H                                                                        \u001b[22;75H                                                                        \u001b[23;75H                                                                        \u001b[24;75H                                    "
+    ],
+    [
+      0.000112,
+      "                                    \u001b[25;75H                                                                        \u001b[26;75H                                                                        \u001b[27;75H                                                                        \u001b[28;75H                                                                        \u001b[29;75H                                                                        \u001b[30;75H                                                                        \u001b[31;75H                                                                        \u001b[32;75H                                                                        \u001b[33;75H                                                                        \u001b[34;75H                                                                        \u001b[35;75H                                                                        \u001b[36;75H                                                                        \u001b[37;75H                    "
+    ],
+    [
+      3e-05,
+      "                                                    \u001b[38;75H                                                                        \u001b[39;75H                                                                        \u001b[40;75H                                                                        \u001b[41;75H                                                                        \u001b[42;75H                                                                        \u001b[43;75H                                                                        \u001b[44;75H                                                                        \u001b[45;75H                                                                        \u001b[3;75H\u001b[35m❯\u001b[39m                                                                       \u001b[3;1H\u001b[1;46r\u001b[H\u001b[3;77H"
+    ],
+    [
+      0.388177,
+      "\u001b[?25l\u001b[32m\u001b[1;74H│\u001b[2;74H│\u001b[3;74H│\u001b[4;74H│\u001b[5;74H│\u001b[6;74H│\u001b[7;74H│\u001b[8;74H│\u001b[9;74H│\u001b[10;74H│\u001b[11;74H│\u001b[12;74H│\u001b[13;74H│\u001b[14;74H│\u001b[15;74H│\u001b[16;74H│\u001b[17;74H│\u001b[18;74H│\u001b[19;74H│\u001b[20;74H│\u001b[21;74H│\u001b[22;74H│\u001b[23;74H│\u001b[39m\u001b[24;74H│\u001b[25;74H│\u001b[26;74H│\u001b[27;74H│\u001b[28;74H│\u001b[29;74H│\u001b[30;74H│\u001b[31;74H│\u001b[32;74H│\u001b[33;74H│\u001b[34;74H│\u001b[35;74H│\u001b[36;74H│\u001b[37;74H│\u001b[38;74H│\u001b[39;74H│\u001b[40;74H│\u001b[41;74H│\u001b[42;74H│\u001b[43;74H│\u001b[44;74H│\u001b[45;74H│\u001b(B\u001b[m\u001b[3;3H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.295653,
+      "\u001b[1;45r\u001b[H\u001b[3;3Htmux\u001b[1;46r\u001b[H\u001b[3;7H"
+    ],
+    [
+      0.335781,
+      "\u001b[1;45r\u001b[H\u001b[3;3Hasciinema rec asciinema/msgpack-rpc-hello-world.json\u001b[1;46r\u001b[H\u001b[3;55H"
+    ],
+    [
+      0.192122,
+      "\u001b[1;45r\u001b[H\u001b[3;3Hopen .                                              \u001b[1;46r\u001b[H\u001b[3;9H"
+    ],
+    [
+      0.239918,
+      "\u001b[1;45r\u001b[H\u001b[3;3Hasciinema rec asciinema/msgpack-rpc-hello-world.json\u001b[1;46r\u001b[H\u001b[3;55H"
+    ],
+    [
+      0.25188,
+      "\u001b[1;45r\u001b[H\u001b[3;3Htmux                                                \u001b[1;46r\u001b[H\u001b[3;7H"
+    ],
+    [
+      0.031998,
+      "\u001b[1;45r\u001b[H\u001b[3;3H    \u001b[1;46r\u001b[H\u001b[3;3H"
+    ],
+    [
+      0.428907,
+      "\u001b[1;45r\u001b[H\u001b[3;3HN\u001b[1;46r\u001b[H\u001b[3;4H"
+    ],
+    [
+      0.519215,
+      "\u001b[1;45r\u001b[H\u001b[3;3H \u001b[1;46r\u001b[H\u001b[3;3H"
+    ],
+    [
+      5.072878,
+      "\u001b[1;45r\u001b[H\u001b[3;3HN\u001b[1;46r\u001b[H\u001b[3;4H"
+    ],
+    [
+      0.119567,
+      "\u001b[1;45r\u001b[H\u001b[3;3HNV\u001b[1;46r\u001b[H\u001b[3;5H"
+    ],
+    [
+      0.080091,
+      "\u001b[1;45r\u001b[H\u001b[3;5HI\u001b[1;46r\u001b[H\u001b[3;6H"
+    ],
+    [
+      0.128183,
+      "\u001b[1;45r\u001b[H\u001b[3;6HM\u001b[1;46r\u001b[H\u001b[3;7H"
+    ],
+    [
+      0.247974,
+      "\u001b[1;45r\u001b[H\u001b[3;7H \u001b[1;46r\u001b[H\u001b[3;8H"
+    ],
+    [
+      0.335621,
+      "\b"
+    ],
+    [
+      0.200227,
+      "\u001b[1;45r\u001b[H\u001b[3;7H_\u001b[1;46r\u001b[H\u001b[3;8H"
+    ],
+    [
+      0.216006,
+      "\u001b[1;45r\u001b[H\u001b[3;8HL\u001b[1;46r\u001b[H\u001b[3;9H"
+    ],
+    [
+      0.136218,
+      "\u001b[1;45r\u001b[H\u001b[3;9HI\u001b[1;46r\u001b[H\u001b[3;10H"
+    ],
+    [
+      0.063842,
+      "\u001b[1;45r\u001b[H\u001b[3;10HS\u001b[1;46r\u001b[H\u001b[3;11H"
+    ],
+    [
+      0.192078,
+      "\u001b[1;45r\u001b[H\u001b[3;11HT\u001b[1;46r\u001b[H\u001b[3;12H"
+    ],
+    [
+      0.167977,
+      "\u001b[1;45r\u001b[H\u001b[3;12HE\u001b[1;46r\u001b[H\u001b[3;13H"
+    ],
+    [
+      0.095885,
+      "\u001b[1;45r\u001b[H\u001b[3;13HN\u001b[1;46r\u001b[H\u001b[3;14H"
+    ],
+    [
+      0.240044,
+      "\u001b[1;45r\u001b[H\u001b[3;14H_\u001b[1;46r\u001b[H\u001b[3;15H"
+    ],
+    [
+      0.424124,
+      "\u001b[1;45r\u001b[H\u001b[3;15HA\u001b[1;46r\u001b[H\u001b[3;16H"
+    ],
+    [
+      0.184022,
+      "\u001b[1;45r\u001b[H\u001b[3;16HD\u001b[1;46r\u001b[H\u001b[3;17H"
+    ],
+    [
+      0.184132,
+      "\u001b[1;45r\u001b[H\u001b[3;17HD\u001b[1;46r\u001b[H\u001b[3;18H"
+    ],
+    [
+      0.184045,
+      "\u001b[1;45r\u001b[H\u001b[3;18HR\u001b[1;46r\u001b[H\u001b[3;19H"
+    ],
+    [
+      0.111914,
+      "\u001b[1;45r\u001b[H\u001b[3;19HE\u001b[1;46r\u001b[H\u001b[3;20H"
+    ],
+    [
+      0.199939,
+      "\u001b[1;45r\u001b[H\u001b[3;20HS\u001b[1;46r\u001b[H\u001b[3;21H"
+    ],
+    [
+      0.16786,
+      "\u001b[1;45r\u001b[H\u001b[3;21HS\u001b[1;46r\u001b[H\u001b[3;22H"
+    ],
+    [
+      0.40066,
+      "\u001b[1;45r\u001b[H\u001b[3;22H=\u001b[1;46r\u001b[H\u001b[3;23H"
+    ],
+    [
+      0.239562,
+      "\u001b[1;45r\u001b[H\u001b[3;23H1\u001b[1;46r\u001b[H\u001b[3;24H"
+    ],
+    [
+      0.191973,
+      "\u001b[1;45r\u001b[H\u001b[3;24H2\u001b[1;46r\u001b[H\u001b[3;25H"
+    ],
+    [
+      0.31221,
+      "\u001b[1;45r\u001b[H\u001b[3;25H7\u001b[1;46r\u001b[H\u001b[3;26H"
+    ],
+    [
+      0.239996,
+      "\u001b[1;45r\u001b[H\u001b[3;26H.\u001b[1;46r\u001b[H\u001b[3;27H"
+    ],
+    [
+      0.224209,
+      "\u001b[1;45r\u001b[H\u001b[3;27H0\u001b[1;46r\u001b[H\u001b[3;28H"
+    ],
+    [
+      0.215676,
+      "\u001b[1;45r\u001b[H\u001b[3;28H.\u001b[1;46r\u001b[H\u001b[3;29H"
+    ],
+    [
+      0.200015,
+      "\u001b[1;45r\u001b[H\u001b[3;29H0\u001b[1;46r\u001b[H\u001b[3;30H"
+    ],
+    [
+      0.232016,
+      "\u001b[1;45r\u001b[H\u001b[3;30H.\u001b[1;46r\u001b[H\u001b[3;31H"
+    ],
+    [
+      1.080189,
+      "\u001b[1;45r\u001b[H\u001b[3;31H1\u001b[1;46r\u001b[H\u001b[3;32H"
+    ],
+    [
+      0.39214,
+      "\u001b[1;45r\u001b[H\u001b[3;32H:\u001b[1;46r\u001b[H\u001b[3;33H"
+    ],
+    [
+      0.207815,
+      "\u001b[1;45r\u001b[H\u001b[3;33H1\u001b[1;46r\u001b[H\u001b[3;34H"
+    ],
+    [
+      0.159838,
+      "\u001b[1;45r\u001b[H\u001b[3;34H2\u001b[1;46r\u001b[H\u001b[3;35H"
+    ],
+    [
+      0.127951,
+      "\u001b[1;45r\u001b[H\u001b[3;35H1\u001b[1;46r\u001b[H\u001b[3;36H"
+    ],
+    [
+      0.168118,
+      "\u001b[1;45r\u001b[H\u001b[3;36H2\u001b[1;46r\u001b[H\u001b[3;37H"
+    ],
+    [
+      0.160119,
+      "\u001b[1;45r\u001b[H\u001b[3;37H1\u001b[1;46r\u001b[H\u001b[3;38H"
+    ],
+    [
+      0.111995,
+      "\u001b[1;45r\u001b[H\u001b[3;38H2\u001b[1;46r\u001b[H\u001b[3;39H"
+    ],
+    [
+      0.392058,
+      "\u001b[1;45r\u001b[H\u001b[3;39H \u001b[1;46r\u001b[H\u001b[3;40H"
+    ],
+    [
+      0.416126,
+      "\u001b[1;45r\u001b[H\u001b[3;40Hv\u001b[1;46r\u001b[H\u001b[3;41H"
+    ],
+    [
+      0.271912,
+      "\u001b[1;45r\u001b[H\u001b[3;40H \u001b[1;46r\u001b[H\u001b[3;40H"
+    ],
+    [
+      0.224398,
+      "\u001b[1;45r\u001b[H\u001b[3;40Hn\u001b[1;46r\u001b[H\u001b[3;41H"
+    ],
+    [
+      0.151612,
+      "\u001b[1;45r\u001b[H\u001b[3;41Hv\u001b[1;46r\u001b[H\u001b[3;42H"
+    ],
+    [
+      0.095748,
+      "\u001b[1;45r\u001b[H\u001b[3;42Hi\u001b[1;46r\u001b[H\u001b[3;43H"
+    ],
+    [
+      0.136228,
+      "\u001b[1;45r\u001b[H\u001b[3;43Hm\u001b[1;46r\u001b[H\u001b[3;44H"
+    ],
+    [
+      0.168026,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.000422,
+      "\u001b[1;45r\u001b[H\u001b[2B                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                   "
+    ],
+    [
+      4.4e-05,
+      "                                      \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n         "
+    ],
+    [
+      9.7e-05,
+      "                                                                \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                          "
+    ],
+    [
+      0.000101,
+      "               \r\n                                                                         \r\n                                                                         \u001b[3;1H\u001b[35m❯\u001b[39m NVIM_LISTEN_ADDRESS=127.0.0.1:121212 nvim                              \u001b[1;46r\u001b[H\u001b[3;44H\u001b[?2004l\r\n"
+    ],
+    [
+      0.00139,
+      "\u001b[?25l\u001b[46d\u001b[30m\u001b[42m[14] 0:zsh*                                                                                                 \"pycon2016_program31: \" 22:20 02- 8-16\u001b(B\u001b[m\u001b[4;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.183672,
+      "\u001b[?25l\u001b[H\u001b[38;5;255m\u001b[48;5;236m                                                                         \u001b[39m\u001b[49m\r\n\u001b[38;5;255m\u001b[48;5;236m                                                                         \u001b[39m\u001b[49m\r\n\u001b[38;5;255m\u001b[48;5;236m                                                                         \u001b[39m\u001b[49m\r\n\u001b[38;5;255m\u001b[48;5;236m                                                                         \u001b[39m\u001b[49m\r\n\u001b[38;5;255m\u001b[48;5;236m                                                                         \u001b[39m\u001b[49m\r\n\u001b[38;5;255m\u001b[48;5;236m                                                                         \u001b[39m\u001b[49m\r\n\u001b[38;5;255m\u001b[48;5;236m                                                                         \u001b[39m\u001b[49m\r\n\u001b[38;5;255m\u001b[48;5;236m                                                                         \u001b[39m\u001b[49m\r\n\u001b[38;5;255m\u001b[48;5;236m                                                                         \u001b[39m\u001b[49m\r\n\u001b[38;5;255m\u001b[48;5;236m                              "
+    ],
+    [
+      8.7e-05,
+      "                                           \u001b[39m\u001b[49m\r\n\u001b[38;5;255m\u001b[48;5;236m                                                                         \u001b[39m\u001b[49m\r\n\u001b[38;5;255m\u001b[48;5;236m                                                                \u001b[39m\u001b[49m         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n     "
+    ],
+    [
+      9.4e-05,
+      "                                                                    \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                      "
+    ],
+    [
+      6.1e-05,
+      "                   \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \u001b[12;65H\u001b[?12l\u001b[?25h\u001b[?2004h"
+    ],
+    [
+      0.001936,
+      "\u001b[1;45r\u001b[H\u001b[12;65H\u001b[38;5;255m\u001b[48;5;236m         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                \u001b[1;46r\u001b[H\u001b[25;49H\u001b(B\u001b[m"
+    ],
+    [
+      0.001848,
+      "\u001b[1;45r\u001b[H\u001b[25;49H\u001b[38;5;255m\u001b[48;5;236m                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                \u001b[1;46r\u001b[H\u001b[38;33H\u001b(B\u001b[m"
+    ],
+    [
+      0.001925,
+      "\u001b[1;45r\u001b[H\u001b[38;33H\u001b[38;5;255m\u001b[48;5;236m                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \u001b[H                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                       \u001b[1;46r\u001b[H\u001b[5;56H\u001b[?25l\u001b[?1006h\u001b[?1002h\u001b(B\u001b[m"
+    ],
+    [
+      0.001824,
+      "\u001b[1;45r\u001b[H\u001b[5;56H\u001b[38;5;255m\u001b[48;5;236m                  \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                           \u001b[1;46r\u001b[H\u001b[18;44H\u001b(B\u001b"
+    ],
+    [
+      0.001796,
+      "[m\u001b[1;45r\u001b[H\u001b[18;44H\u001b[38;5;255m\u001b[48;5;236m                              \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                           \u001b[1;46r\u001b[H\u001b[31;28H\u001b(B\u001b["
+    ],
+    [
+      0.001839,
+      "m\u001b[1;45r\u001b[H\u001b[31;28H\u001b[38;5;255m\u001b[48;5;236m                                              \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n                                                                         \r\n           \u001b[1;46r\u001b[H\u001b[44;12H\u001b(B\u001b[m"
+    ],
+    [
+      0.000275,
+      "\u001b[1;45r\u001b[H\u001b[44;12H\u001b[38;5;255m\u001b[48;5;236m                                                              \r\n                                                                         \u001b[1;46r\u001b[H\u001b[?12l\u001b[?25h\u001b(B\u001b[m"
+    ],
+    [
+      0.063447,
+      "\u001b[1;45r\u001b[38;5;236m\u001b[48;5;141m [No Name] \u001b[38;5;141m\u001b[48;5;236m\u001b[38;5;255m                                                  \u001b[38;5;236m\u001b[38;5;228m\u001b[38;5;16m\u001b[48;5;228m buffers \r\n\u001b[38;5;246m\u001b[48;5;236m  1 \r\n\u001b[38;5;240m~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                 \u001b[1;46r\u001b[H\u001b[10;51H\u001b[?25l\u001b(B\u001b[m"
+    ],
+    [
+      0.002308,
+      "\u001b[1;45r\u001b[H\u001b[10;51H\u001b[38;5;240m\u001b[48;5;236m                       \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                 \u001b[1;46r\u001b[H\u001b[23;35H\u001b(B\u001b[m"
+    ],
+    [
+      0.001788,
+      "\u001b[1;45r\u001b[H\u001b[23;35H\u001b[38;5;240m\u001b[48;5;236m                                       \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                 \u001b[1;46r\u001b[H\u001b[36;19H\u001b(B\u001b[m"
+    ],
+    [
+      0.000984,
+      "\u001b[1;45r\u001b[H\u001b[36;19H\u001b[38;5;240m\u001b[48;5;236m                                                       \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \r\n~                                                                        \u001b[1;46r\u001b[H\u001b[44d\u001b[?12l\u001b[?25h\u001b(B\u001b[m"
+    ],
+    [
+      0.000203,
+      "\u001b[?25l"
+    ],
+    [
+      0.018981,
+      "\u001b[1;45r\u001b[H\u001b[44d\u001b[38;5;236m\u001b[48;5;141m \u001b[1mNORMAL\u001b(B\u001b[m\u001b[38;5;236m\u001b[48;5;141m \u001b[38;5;141m\u001b[48;5;238m\u001b[38;5;238m\u001b[48;5;236m\u001b[38;5;255m [이름 없음]                                \u001b[38;5;236m\u001b[38;5;238m\u001b[38;5;141m\u001b[48;5;238m\u001b[38;5;236m\u001b[48;5;141m 100% \u001b[1m   0\u001b(B\u001b[m\u001b[38;5;236m\u001b[48;5;141m:  1 \u001b[1;46r\u001b[H\u001b[45d\u001b[?12l\u001b[?25h\u001b(B\u001b[m"
+    ],
+    [
+      0.001083,
+      "\u001b[1;45r\u001b[H\u001b[13;32H\u001b[38;5;255m\u001b[48;5;236mNVIM 0.1.4\u001b[15;25Hby Bram Moolenaar et al.\u001b[16;18H빔은 소스가 열려 있고 공짜로 배포됩니다\u001b[18;20HFirst time using a vi-like editor?\u001b[19;20HType :Tutor\u001b[38;5;240m<Enter>\u001b[38;5;255m to get started!\u001b[21;21HAlready know your way around Vim?\u001b[22;12HSee :help nvim-intro for an introduction to Neovim.\u001b[24;27HStill have questions?\u001b[25;9HReach out to the Neovim community at neovim.io/community.\u001b[27;26H빔 사용자로 등록하세요!\u001b[28;10H이에 대한 정보를 보려면    :help register\u001b[38;5;240m<엔터>\u001b[38;5;255m   입력\u001b[30;10H끝내려면                   :q\u001b[38;5;240m<엔터>\u001b[38;5;255m               입력\u001b[31;10H온라인 도움말을 보려면     :help\u001b[38;5;240m<엔터>\u001b[38;5;255m 또는 \u001b[1;46r\u001b[H\u001b[31;54H\u001b[?25l\u001b(B\u001b[m"
+    ],
+    [
+      0.000251,
+      "\u001b[1;45r\u001b[H\u001b[31;54H\u001b[38;5;240m\u001b[48;5;236m<F1>\u001b[38;5;255m  입력\u001b[32;14Htype  :help nvim\u001b[38;5;240m<Enter>\u001b[38;5;255m       for Neovim help \u001b[1;46r\u001b[H\u001b[2;5H\u001b[?12l\u001b[?25h\u001b(B\u001b[m"
+    ],
+    [
+      0.457763,
+      "\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:nvim*                                                                                                \"pycon2016_program31: \" 22:21 02- 8-16\u001b(B\u001b[m\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.249033,
+      "\u001b[?25l\u001b[1;74H│\u001b[2;74H│\u001b[3;74H│\u001b[4;74H│\u001b[5;74H│\u001b[6;74H│\u001b[7;74H│\u001b[8;74H│\u001b[9;74H│\u001b[10;74H│\u001b[11;74H│\u001b[12;74H│\u001b[13;74H│\u001b[14;74H│\u001b[15;74H│\u001b[16;74H│\u001b[17;74H│\u001b[18;74H│\u001b[19;74H│\u001b[20;74H│\u001b[21;74H│\u001b[22;74H│\u001b[23;74H│\u001b[32m\u001b[24;74H│\u001b[25;74H│\u001b[26;74H│\u001b[27;74H│\u001b[28;74H│\u001b[29;74H│\u001b[30;74H│\u001b[31;74H│\u001b[32;74H│\u001b[33;74H│\u001b[34;74H│\u001b[35;74H│\u001b[36;74H│\u001b[37;74H│\u001b[38;74H│\u001b[39;74H│\u001b[40;74H│\u001b[41;74H│\u001b[42;74H│\u001b[43;74H│\u001b[44;74H│\u001b[45;74H│\u001b(B\u001b[m\r\n\u001b[30m\u001b[42m[14] 0:nvim*                                                                                                \"~/Projects/pycon2016_\" 22:21 02- 8-16\u001b(B\u001b[m\u001b[3;77H\u001b[?12l\u001b[?25h\u001b[?1002l\u001b[?1006l\u001b[?1h\u001b="
+    ],
+    [
+      0.000564,
+      "\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:zsh*                                                                                                 \"~/Projects/pycon2016_\" 22:21 02- 8-16\u001b(B\u001b[m\u001b[3;77H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.975348,
+      "\u001b[1;45r\u001b[H\u001b[3;77Hw\u001b[1;46r\u001b[H\u001b[3;78H"
+    ],
+    [
+      0.087211,
+      "\u001b[1;45r\u001b[H\u001b[3;77Hwo\u001b[1;46r\u001b[H\u001b[3;79H"
+    ],
+    [
+      0.111836,
+      "\u001b[1;45r\u001b[H\u001b[3;79Hr\u001b[1;46r\u001b[H\u001b[3;80H"
+    ],
+    [
+      0.096169,
+      "\u001b[1;45r\u001b[H\u001b[3;80Hk\u001b[1;46r\u001b[H\u001b[3;81H"
+    ],
+    [
+      0.095869,
+      "\u001b[1;45r\u001b[H\u001b[3;81Ho\u001b[1;46r\u001b[H\u001b[3;82H"
+    ],
+    [
+      0.120061,
+      "\u001b[1;45r\u001b[H\u001b[3;82Hn\u001b[1;46r\u001b[H\u001b[3;83H"
+    ],
+    [
+      0.144243,
+      "\u001b[1;45r\u001b[H\u001b[3;83H \u001b[1;46r\u001b[H\u001b[3;84H"
+    ],
+    [
+      0.256023,
+      "\u001b[1;45r\u001b[H\u001b[3;84Hn\u001b[1;46r\u001b[H\u001b[3;85H"
+    ],
+    [
+      0.111716,
+      "\u001b[1;45r\u001b[H\u001b[3;85He\u001b[1;46r\u001b[H\u001b[3;86H"
+    ],
+    [
+      0.152053,
+      "\u001b[1;45r\u001b[H\u001b[3;86Ho\u001b[1;46r\u001b[H\u001b[3;87H"
+    ],
+    [
+      0.112009,
+      "\u001b[1;45r\u001b[H\u001b[3;87Hv\u001b[1;46r\u001b[H\u001b[3;88H"
+    ],
+    [
+      0.095923,
+      "\u001b[1;45r\u001b[H\u001b[3;88Hi\u001b[1;46r\u001b[H\u001b[3;89H"
+    ],
+    [
+      0.143953,
+      "\u001b[1;45r\u001b[H\u001b[3;89Hm\u001b[1;46r\u001b[H\u001b[3;90H"
+    ],
+    [
+      0.128297,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.00045,
+      "\u001b[1;45r\u001b[H\u001b[3;75H                                                                        \u001b[4;75H                                                                        \u001b[5;75H                                                                        \u001b[6;75H                                                                        \u001b[7;75H                                                                        \u001b[8;75H                                                                        \u001b[9;75H                                                                        \u001b[10;75H                                                                        \u001b[11;75H                                                                        \u001b[12;75H                                                                        \u001b[13;75H                                                                        \u001b[14;75H                                                                        \u001b[15;75H                                                     "
+    ],
+    [
+      3.9e-05,
+      "                   \u001b[16;75H                                                                        \u001b[17;75H                                                                        \u001b[18;75H                                                                        \u001b[19;75H                                                                        \u001b[20;75H                                                                        \u001b[21;75H                                                                        \u001b[22;75H                                                                        \u001b[23;75H                                                                        \u001b[24;75H                                                                        \u001b[25;75H                                                                        \u001b[26;75H                                                                        \u001b[27;75H                                                                        \u001b[28;75H                                     "
+    ],
+    [
+      6.9e-05,
+      "                                   \u001b[29;75H                                                                        \u001b[30;75H                                                                        \u001b[31;75H                                                                        \u001b[32;75H                                                                        \u001b[33;75H                                                                        \u001b[34;75H                                                                        \u001b[35;75H                                                                        \u001b[36;75H                                                                        \u001b[37;75H                                                                        \u001b[38;75H                                                                        \u001b[39;75H                                                                        \u001b[40;75H                                                                        \u001b[41;75H                     "
+    ],
+    [
+      8.8e-05,
+      "                                                   \u001b[42;75H                                                                        \u001b[43;75H                                                                        \u001b[44;75H                                                                        \u001b[45;75H                                                                        \u001b[3;75H\u001b[35m❯\u001b[39m workon neovim                                                         \u001b[3;1H\u001b[1;46r\u001b[H\u001b[3;90H\u001b[?2004l\u001b[4;75H"
+    ],
+    [
+      0.001335,
+      "\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:zsh*                                                                                                 \"pycon2016_program31: \" 22:21 02- 8-16\u001b(B\u001b[m\u001b[4;75H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.245423,
+      "\u001b[1;45r\u001b[H\u001b[4;75Hp\u001b[1;46r\u001b[H\u001b[4;76H"
+    ],
+    [
+      0.200542,
+      "\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:Python*                                                                                              \"pycon2016_program31: \" 22:21 02- 8-16\u001b(B\u001b[m\u001b[4;76H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.4e-05,
+      "\u001b[1;45r\u001b[H\u001b[4;76Hy\u001b[1;46r\u001b[H\u001b[4;77H"
+    ],
+    [
+      0.095523,
+      "\u001b[1;45r\u001b[H\u001b[4;77Ht\u001b[1;46r\u001b[H\u001b[4;78H"
+    ],
+    [
+      0.003119,
+      "\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:Python*                                                                                              \"~/Projects/pycon2016_\" 22:21 02- 8-16\u001b(B\u001b[m\u001b[4;78H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.044708,
+      "\u001b[1;45r\u001b[H\u001b[5;75H\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages*\u001b[1;46r\u001b[H\u001b[6;75H\u001b(B\u001b[m"
+    ],
+    [
+      0.000157,
+      "\u001b[1;45r\u001b[H\u001b[6;75H                                                                        \u001b[7;75H                                                                        \u001b[8;75H                                                                        \u001b[9;75H                                                                        \u001b[10;75H                                                                        \u001b[11;75H                                                                        \u001b[12;75H                                                                        \u001b[13;75H                                                                        \u001b[14;75H                                                                        \u001b[15;75H                                                                        \u001b[16;75H                                                                        \u001b[17;75H                                                                        \u001b[18;75H                                                  "
+    ],
+    [
+      3.5e-05,
+      "                      \u001b[19;75H                                                                        \u001b[20;75H                                                                        \u001b[21;75H                                                                        \u001b[22;75H                                                                        \u001b[23;75H                                                                        \u001b[24;75H                                                                        \u001b[25;75H                                                                        \u001b[26;75H                                                                        \u001b[27;75H                                                                        \u001b[28;75H                                                                        \u001b[29;75H                                                                        \u001b[30;75H                                                                        \u001b[31;75H                                  "
+    ],
+    [
+      9.3e-05,
+      "                                      \u001b[32;75H                                                                        \u001b[33;75H                                                                        \u001b[34;75H                                                                        \u001b[35;75H                                                                        \u001b[36;75H                                                                        \u001b[37;75H                                                                        \u001b[38;75H                                                                        \u001b[39;75H                                                                        \u001b[40;75H                                                                        \u001b[41;75H                                                                        \u001b[42;75H                                                                        \u001b[43;75H                                                                        \u001b[44;75H                  "
+    ],
+    [
+      5.2e-05,
+      "                                                      \u001b[45;75H                                                                        \u001b[6;75H(\u001b[1;46r\u001b[H\u001b[6;76H\u001b[1;45r\u001b[H\u001b[6;76Hneovim) \u001b[35m❯\u001b[39m                                                              "
+    ],
+    [
+      3.3e-05,
+      "\u001b[6;1H\u001b[1;46r\u001b[H\u001b[6;86H\u001b[?1h\u001b="
+    ],
+    [
+      3.1e-05,
+      "\u001b[11D"
+    ],
+    [
+      0.000343,
+      "\u001b[1;45r\u001b[H\u001b[6;75H                                                                        \u001b[7;75H                                                                        \u001b[8;75H                                                                        \u001b[9;75H                                                                        \u001b[10;75H                                                                        \u001b[11;75H                                                                        \u001b[12;75H                                                                        \u001b[13;75H                                                                        \u001b[14;75H                                                                        \u001b[15;75H                                                                        \u001b[16;75H                                                                        \u001b[17;75H                                                                        \u001b[18;75H                                                  "
+    ],
+    [
+      3e-05,
+      "                      \u001b[19;75H                                                                        \u001b[20;75H                                                                        \u001b[21;75H                                                                        \u001b[22;75H                                                                        \u001b[23;75H                                                                        \u001b[24;75H                                                                        \u001b[25;75H                                                                        \u001b[26;75H                                                                        \u001b[27;75H                                                                        \u001b[28;75H                                                                        \u001b[29;75H                                                                        \u001b[30;75H                                                                        \u001b[31;75H                                  "
+    ],
+    [
+      0.000155,
+      "                                      \u001b[32;75H                                                                        \u001b[33;75H                                                                        \u001b[34;75H                                                                        \u001b[35;75H                                                                        \u001b[36;75H                                                                        \u001b[37;75H                                                                        \u001b[38;75H                                                                        \u001b[39;75H                                                                        \u001b[40;75H                                                                        \u001b[41;75H                                                                        \u001b[42;75H                                                                        \u001b[43;75H                                                                        \u001b[44;75H                  "
+    ],
+    [
+      5.1e-05,
+      "                                                      \u001b[45;75H                                                                        \u001b[45;1H\u001b[1;46r\u001b[H\u001b[6;75H\u001b[1;45r\u001b[H\u001b[6;75H(neovim) \u001b[35m❯\u001b[39m                                                              \u001b[6;86Hp\bpyt\u001b[1;46r\u001b[H\u001b[6;89H\u001b[?2004h"
+    ],
+    [
+      0.087364,
+      "\u001b[1;45r\u001b[H\u001b[6;89Hh\u001b[1;46r\u001b[H\u001b[6;90H"
+    ],
+    [
+      0.05587,
+      "\u001b[1;45r\u001b[H\u001b[6;90Ho\u001b[1;46r\u001b[H\u001b[6;91H"
+    ],
+    [
+      0.13624,
+      "\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:zsh*                                                                                                 \"~/Projects/pycon2016_\" 22:21 02- 8-16\u001b(B\u001b[m\u001b[6;91H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000187,
+      "\u001b[1;45r\u001b[H\u001b[6;91Hn\u001b[1;46r\u001b[H\u001b[6;92H"
+    ],
+    [
+      0.247759,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.000378,
+      "\u001b[1;45r\u001b[H\u001b[6;75H                                                                        \u001b[7;75H                                                                        \u001b[8;75H                                                                        \u001b[9;75H                                                                        \u001b[10;75H                                                                        \u001b[11;75H                                                                        \u001b[12;75H                                                                        \u001b[13;75H                                                                        \u001b[14;75H                                                                        \u001b[15;75H                                                                        \u001b[16;75H                                                                        \u001b[17;75H                                                                        \u001b[18;75H                                                  "
+    ],
+    [
+      3.4e-05,
+      "                      \u001b[19;75H                                                                        \u001b[20;75H                                                                        \u001b[21;75H                                                                        \u001b[22;75H                                                                        \u001b[23;75H                                                                        \u001b[24;75H                                                                        \u001b[25;75H                                                                        \u001b[26;75H                                                                        \u001b[27;75H                                                                        \u001b[28;75H                                                                        \u001b[29;75H                                                                        \u001b[30;75H                                                                        \u001b[31;75H                                  "
+    ],
+    [
+      6.1e-05,
+      "                                      \u001b[32;75H                                                                        \u001b[33;75H                                                                        \u001b[34;75H                                                                        \u001b[35;75H                                                                        \u001b[36;75H                                                                        \u001b[37;75H                                                                        \u001b[38;75H                                                                        \u001b[39;75H                                                                        \u001b[40;75H                                                                        \u001b[41;75H                                                                        \u001b[42;75H                                                                        \u001b[43;75H                                                                        \u001b[44;75H                  "
+    ],
+    [
+      4.7e-05,
+      "                                                      \u001b[45;75H                                                                        \u001b[6;75H(neovim) \u001b[35m❯\u001b[39m python                                                       \u001b[6;1H\u001b[1;46r\u001b[H\u001b[6;92H\u001b[?2004l\u001b[7;75H"
+    ],
+    [
+      0.000793,
+      "\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:zsh*                                                                                                 \"pycon2016_program31: \" 22:21 02- 8-16\u001b(B\u001b[m\u001b[7;75H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.018111,
+      "\u001b[1;45r\u001b[H\u001b[7;75HPython 2.7.10 (default, Oct 23 2015, 19:19:21) \u001b[8;75H[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin\u001b[9;75HType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\u001b[1;46r\u001b[H\u001b[10;75H"
+    ],
+    [
+      0.001765,
+      "\u001b[1;45r\u001b[H\u001b[10;75H>>> \u001b[1;46r\u001b[H\u001b[10;79H"
+    ],
+    [
+      1.04345,
+      "\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:python*                                                                                              \"pycon2016_program31: \" 22:21 02- 8-16\u001b(B\u001b[m\u001b[10;79H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.00014,
+      "\u001b[1;45r\u001b[H\u001b[10;79Hf\u001b[1;46r\u001b[H\u001b[10;80H"
+    ],
+    [
+      0.247522,
+      "\u001b[1;45r\u001b[H\u001b[10;80Hr\u001b[1;46r\u001b[H\u001b[10;81H"
+    ],
+    [
+      0.120013,
+      "\u001b[1;45r\u001b[H\u001b[10;81Ho\u001b[1;46r\u001b[H\u001b[10;82H"
+    ],
+    [
+      0.135912,
+      "\u001b[1;45r\u001b[H\u001b[10;82Hm\u001b[1;46r\u001b[H\u001b[10;83H"
+    ],
+    [
+      0.040205,
+      "\u001b[1;45r\u001b[H\u001b[10;83H \u001b[1;46r\u001b[H\u001b[10;84H"
+    ],
+    [
+      0.135833,
+      "\u001b[1;45r\u001b[H\u001b[10;84Hn\u001b[1;46r\u001b[H\u001b[10;85H"
+    ],
+    [
+      0.167884,
+      "\u001b[1;45r\u001b[H\u001b[10;85He\u001b[1;46r\u001b[H\u001b[10;86H"
+    ],
+    [
+      0.264051,
+      "\u001b[1;45r\u001b[H\u001b[10;86Ho\u001b[1;46r\u001b[H\u001b[10;87H"
+    ],
+    [
+      0.224043,
+      "\u001b[1;45r\u001b[H\u001b[10;87Hv\u001b[1;46r\u001b[H\u001b[10;88H"
+    ],
+    [
+      0.103798,
+      "\u001b[1;45r\u001b[H\u001b[10;88Hi\u001b[1;46r\u001b[H\u001b[10;89H"
+    ],
+    [
+      0.144192,
+      "\u001b[1;45r\u001b[H\u001b[10;89Hm\u001b[1;46r\u001b[H\u001b[10;90H"
+    ],
+    [
+      0.104003,
+      "\u001b[1;45r\u001b[H\u001b[10;90H \u001b[1;46r\u001b[H\u001b[10;91H"
+    ],
+    [
+      0.28798,
+      "\u001b[1;45r\u001b[H\u001b[10;91Hi\u001b[1;46r\u001b[H\u001b[10;92H"
+    ],
+    [
+      0.128044,
+      "\u001b[1;45r\u001b[H\u001b[10;92Hm\u001b[1;46r\u001b[H\u001b[10;93H"
+    ],
+    [
+      0.064032,
+      "\u001b[1;45r\u001b[H\u001b[10;93Hp\u001b[1;46r\u001b[H\u001b[10;94H"
+    ],
+    [
+      0.184138,
+      "\u001b[1;45r\u001b[H\u001b[10;94Ho\u001b[1;46r\u001b[H\u001b[10;95H"
+    ],
+    [
+      0.03983,
+      "\u001b[1;45r\u001b[H\u001b[10;95Hr\u001b[1;46r\u001b[H\u001b[10;96H"
+    ],
+    [
+      0.160083,
+      "\u001b[1;45r\u001b[H\u001b[10;96Ht\u001b[1;46r\u001b[H\u001b[10;97H"
+    ],
+    [
+      0.103987,
+      "\u001b[1;45r\u001b[H\u001b[10;97H \u001b[1;46r\u001b[H\u001b[10;98H"
+    ],
+    [
+      0.11255,
+      "\u001b[1;45r\u001b[H\u001b[10;98Ha\u001b[1;46r\u001b[H\u001b[10;99H"
+    ],
+    [
+      0.143369,
+      "\u001b[1;45r\u001b[H\u001b[10;99Ht\u001b[1;46r\u001b[H\u001b[10;100H"
+    ],
+    [
+      0.168155,
+      "\u001b[1;45r\u001b[H\u001b[10;100Ht\u001b[1;46r\u001b[H\u001b[10;101H"
+    ],
+    [
+      0.112424,
+      "\u001b[1;45r\u001b[H\u001b[10;101Ha\u001b[1;46r\u001b[H\u001b[10;102H"
+    ],
+    [
+      0.151598,
+      "\u001b[1;45r\u001b[H\u001b[10;102Hc\u001b[1;46r\u001b[H\u001b[10;103H"
+    ],
+    [
+      0.119998,
+      "\u001b[1;45r\u001b[H\u001b[10;103Hh\u001b[1;46r\u001b[H\u001b[10;104H"
+    ],
+    [
+      0.176074,
+      "\u001b[11;75H"
+    ],
+    [
+      0.08446,
+      "\u001b[1;45r\u001b[H\u001b[11;75H>>> \u001b[1;46r\u001b[H\u001b[11;79H"
+    ],
+    [
+      0.171528,
+      "\u001b[1;45r\u001b[H\u001b[11;79Hn\u001b[1;46r\u001b[H\u001b[11;80H"
+    ],
+    [
+      0.08769,
+      "\u001b[1;45r\u001b[H\u001b[11;80Hv\u001b[1;46r\u001b[H\u001b[11;81H"
+    ],
+    [
+      0.128481,
+      "\u001b[1;45r\u001b[H\u001b[11;81Hi\u001b[1;46r\u001b[H\u001b[11;82H"
+    ],
+    [
+      0.127811,
+      "\u001b[1;45r\u001b[H\u001b[11;82Hm\u001b[1;46r\u001b[H\u001b[11;83H"
+    ],
+    [
+      0.080003,
+      "\u001b[1;45r\u001b[H\u001b[11;83H \u001b[1;46r\u001b[H\u001b[11;84H"
+    ],
+    [
+      0.128204,
+      "\u001b[1;45r\u001b[H\u001b[11;84H=\u001b[1;46r\u001b[H\u001b[11;85H"
+    ],
+    [
+      0.135765,
+      "\u001b[1;45r\u001b[H\u001b[11;85H \u001b[1;46r\u001b[H\u001b[11;86H"
+    ],
+    [
+      0.144169,
+      "\u001b[1;45r\u001b[H\u001b[11;86Ha\u001b[1;46r\u001b[H\u001b[11;87H"
+    ],
+    [
+      0.143905,
+      "\u001b[1;45r\u001b[H\u001b[11;87Ht\u001b[1;46r\u001b[H\u001b[11;88H"
+    ],
+    [
+      0.184004,
+      "\u001b[1;45r\u001b[H\u001b[11;88Ht\u001b[1;46r\u001b[H\u001b[11;89H"
+    ],
+    [
+      0.192227,
+      "\u001b[1;45r\u001b[H\u001b[11;89Ha\u001b[1;46r\u001b[H\u001b[11;90H"
+    ],
+    [
+      0.19193,
+      "\u001b[1;45r\u001b[H\u001b[11;90Hc\u001b[1;46r\u001b[H\u001b[11;91H"
+    ],
+    [
+      0.127743,
+      "\u001b[1;45r\u001b[H\u001b[11;91Hh\u001b[1;46r\u001b[H\u001b[11;92H"
+    ],
+    [
+      0.336204,
+      "\u001b[1;45r\u001b[H\u001b[11;92H(\u001b[1;46r\u001b[H\u001b[11;93H"
+    ],
+    [
+      0.328122,
+      "\u001b[1;45r\u001b[H\u001b[11;93H'\u001b[1;46r\u001b[H\u001b[11;94H"
+    ],
+    [
+      0.431804,
+      "\u001b[1;45r\u001b[H\u001b[11;94Hs\u001b[1;46r\u001b[H\u001b[11;95H"
+    ],
+    [
+      0.088087,
+      "\u001b[1;45r\u001b[H\u001b[11;95Ho\u001b[1;46r\u001b[H\u001b[11;96H"
+    ],
+    [
+      0.191833,
+      "\u001b[1;45r\u001b[H\u001b[11;96Hc\u001b[1;46r\u001b[H\u001b[11;97H"
+    ],
+    [
+      0.12821,
+      "\u001b[1;45r\u001b[H\u001b[11;97Hk\u001b[1;46r\u001b[H\u001b[11;98H"
+    ],
+    [
+      0.08798,
+      "\u001b[1;45r\u001b[H\u001b[11;98He\u001b[1;46r\u001b[H\u001b[11;99H"
+    ],
+    [
+      0.128004,
+      "\u001b[1;45r\u001b[H\u001b[11;99Ht\u001b[1;46r\u001b[H\u001b[11;100H"
+    ],
+    [
+      0.295955,
+      "\u001b[1;45r\u001b[H\u001b[11;100H'\u001b[1;46r\u001b[H\u001b[11;101H"
+    ],
+    [
+      0.216117,
+      "\u001b[1;45r\u001b[H\u001b[11;101H,\u001b[1;46r\u001b[H\u001b[11;102H"
+    ],
+    [
+      0.128091,
+      "\u001b[1;45r\u001b[H\u001b[11;102H \u001b[1;46r\u001b[H\u001b[11;103H"
+    ],
+    [
+      0.671972,
+      "\u001b[1;45r\u001b[H\u001b[11;103Hp\u001b[1;46r\u001b[H\u001b[11;104H"
+    ],
+    [
+      0.112085,
+      "\u001b[1;45r\u001b[H\u001b[11;104Ha\u001b[1;46r\u001b[H\u001b[11;105H"
+    ],
+    [
+      0.127904,
+      "\u001b[1;45r\u001b[H\u001b[11;105Ht\u001b[1;46r\u001b[H\u001b[11;106H"
+    ],
+    [
+      0.080106,
+      "\u001b[1;45r\u001b[H\u001b[11;106Hh\u001b[1;46r\u001b[H\u001b[11;107H"
+    ],
+    [
+      0.279847,
+      "\u001b[1;45r\u001b[H\u001b[11;107H=\u001b[1;46r\u001b[H\u001b[11;108H"
+    ],
+    [
+      0.552105,
+      "\u001b[1;45r\u001b[H\u001b[11;108H'\u001b[1;46r\u001b[H\u001b[11;109H"
+    ],
+    [
+      0.296113,
+      "\u001b[1;45r\u001b[H\u001b[11;109H1\u001b[1;46r\u001b[H\u001b[11;110H"
+    ],
+    [
+      0.168045,
+      "\u001b[1;45r\u001b[H\u001b[11;110H2\u001b[1;46r\u001b[H\u001b[11;111H"
+    ],
+    [
+      0.351918,
+      "\u001b[1;45r\u001b[H\u001b[11;111H7\u001b[1;46r\u001b[H\u001b[11;112H"
+    ],
+    [
+      0.224142,
+      "\u001b[1;45r\u001b[H\u001b[11;112H.\u001b[1;46r\u001b[H\u001b[11;113H"
+    ],
+    [
+      0.295979,
+      "\u001b[1;45r\u001b[H\u001b[11;113H0\u001b[1;46r\u001b[H\u001b[11;114H"
+    ],
+    [
+      0.239892,
+      "\u001b[1;45r\u001b[H\u001b[11;114H.\u001b[1;46r\u001b[H\u001b[11;115H"
+    ],
+    [
+      0.224151,
+      "\u001b[1;45r\u001b[H\u001b[11;115H0\u001b[1;46r\u001b[H\u001b[11;116H"
+    ],
+    [
+      0.176157,
+      "\u001b[1;45r\u001b[H\u001b[11;116H.\u001b[1;46r\u001b[H\u001b[11;117H"
+    ],
+    [
+      0.143849,
+      "\u001b[1;45r\u001b[H\u001b[11;117H1\u001b[1;46r\u001b[H\u001b[11;118H"
+    ],
+    [
+      0.496015,
+      "\u001b[1;45r\u001b[H\u001b[11;118H:\u001b[1;46r\u001b[H\u001b[11;119H"
+    ],
+    [
+      0.175948,
+      "\u001b[1;45r\u001b[H\u001b[11;119H1\u001b[1;46r\u001b[H\u001b[11;120H"
+    ],
+    [
+      0.168081,
+      "\u001b[1;45r\u001b[H\u001b[11;120H2\u001b[1;46r\u001b[H\u001b[11;121H"
+    ],
+    [
+      0.143916,
+      "\u001b[1;45r\u001b[H\u001b[11;121H1\u001b[1;46r\u001b[H\u001b[11;122H"
+    ],
+    [
+      0.159847,
+      "\u001b[1;45r\u001b[H\u001b[11;122H2\u001b[1;46r\u001b[H\u001b[11;123H"
+    ],
+    [
+      0.160196,
+      "\u001b[1;45r\u001b[H\u001b[11;123H1\u001b[1;46r\u001b[H\u001b[11;124H"
+    ],
+    [
+      0.120097,
+      "\u001b[1;45r\u001b[H\u001b[11;124H2\u001b[1;46r\u001b[H\u001b[11;125H"
+    ],
+    [
+      0.239902,
+      "\u001b[1;45r\u001b[H\u001b[11;125H'\u001b[1;46r\u001b[H\u001b[11;126H"
+    ],
+    [
+      0.336137,
+      "\u001b[1;45r\u001b[H\u001b[11;126H)\u001b[1;46r\u001b[H\u001b[11;127H"
+    ],
+    [
+      0.28795,
+      "\u001b[12;75H"
+    ],
+    [
+      0.002399,
+      "\u001b[1;45r\u001b[H\u001b[12;75H>>> \u001b[1;46r\u001b[H\u001b[12;79H"
+    ],
+    [
+      0.429796,
+      "\u001b[1;45r\u001b[H\u001b[12;79Hn\u001b[1;46r\u001b[H\u001b[12;80H"
+    ],
+    [
+      0.135935,
+      "\u001b[1;45r\u001b[H\u001b[12;80Hv\u001b[1;46r\u001b[H\u001b[12;81H"
+    ],
+    [
+      0.111902,
+      "\u001b[1;45r\u001b[H\u001b[12;81Hi\u001b[1;46r\u001b[H\u001b[12;82H"
+    ],
+    [
+      0.144084,
+      "\u001b[1;45r\u001b[H\u001b[12;82Hm\u001b[1;46r\u001b[H\u001b[12;83H"
+    ],
+    [
+      0.127886,
+      "\u001b[1;45r\u001b[H\u001b[12;83H.\u001b[1;46r\u001b[H\u001b[12;84H"
+    ],
+    [
+      0.168179,
+      "\u001b[1;45r\u001b[H\u001b[12;84Hc\u001b[1;46r\u001b[H\u001b[12;85H"
+    ],
+    [
+      0.095826,
+      "\u001b[1;45r\u001b[H\u001b[12;85Ho\u001b[1;46r\u001b[H\u001b[12;86H"
+    ],
+    [
+      0.152277,
+      "\u001b[1;45r\u001b[H\u001b[12;86Hm\u001b[1;46r\u001b[H\u001b[12;87H"
+    ],
+    [
+      0.183924,
+      "\u001b[1;45r\u001b[H\u001b[12;87Hm\u001b[1;46r\u001b[H\u001b[12;88H"
+    ],
+    [
+      0.143772,
+      "\u001b[1;45r\u001b[H\u001b[12;88Ha\u001b[1;46r\u001b[H\u001b[12;89H"
+    ],
+    [
+      0.080015,
+      "\u001b[1;45r\u001b[H\u001b[12;89Hn\u001b[1;46r\u001b[H\u001b[12;90H"
+    ],
+    [
+      0.104196,
+      "\u001b[1;45r\u001b[H\u001b[12;90Hd\u001b[1;46r\u001b[H\u001b[12;91H"
+    ],
+    [
+      0.352256,
+      "\u001b[1;45r\u001b[H\u001b[12;91H(\u001b[1;46r\u001b[H\u001b[12;92H"
+    ],
+    [
+      0.951929,
+      "\u001b[1;45r\u001b[H\u001b[12;92H'\u001b[1;46r\u001b[H\u001b[12;93H"
+    ],
+    [
+      0.208056,
+      "\u001b[1;45r\u001b[H\u001b[12;93He\u001b[1;46r\u001b[H\u001b[12;94H"
+    ],
+    [
+      0.224117,
+      "\u001b[1;45r\u001b[H\u001b[12;94Hc\u001b[1;46r\u001b[H\u001b[12;95H"
+    ],
+    [
+      0.047813,
+      "\u001b[1;45r\u001b[H\u001b[12;95Hh\u001b[1;46r\u001b[H\u001b[12;96H"
+    ],
+    [
+      0.056171,
+      "\u001b[1;45r\u001b[H\u001b[12;96Ho\u001b[1;46r\u001b[H\u001b[12;97H"
+    ],
+    [
+      0.111752,
+      "\u001b[1;45r\u001b[H\u001b[12;97H \u001b[1;46r\u001b[H\u001b[12;98H"
+    ],
+    [
+      0.216077,
+      "\u001b[1;45r\u001b[H\u001b[12;98H\"\u001b[1;46r\u001b[H\u001b[12;99H"
+    ],
+    [
+      0.400111,
+      "\u001b[1;45r\u001b[H\u001b[12;99Hh\u001b[1;46r\u001b[H\u001b[12;100H"
+    ],
+    [
+      0.175848,
+      "\u001b[1;45r\u001b[H\u001b[12;100He\u001b[1;46r\u001b[H\u001b[12;101H"
+    ],
+    [
+      0.144224,
+      "\u001b[1;45r\u001b[H\u001b[12;101Hl\u001b[1;46r\u001b[H\u001b[12;102H"
+    ],
+    [
+      0.183998,
+      "\u001b[1;45r\u001b[H\u001b[12;102Hl\u001b[1;46r\u001b[H\u001b[12;103H"
+    ],
+    [
+      0.191854,
+      "\u001b[1;45r\u001b[H\u001b[12;103Ho\u001b[1;46r\u001b[H\u001b[12;104H"
+    ],
+    [
+      0.22424,
+      "\u001b[1;45r\u001b[H\u001b[12;104H \u001b[1;46r\u001b[H\u001b[12;105H"
+    ],
+    [
+      0.175822,
+      "\u001b[1;45r\u001b[H\u001b[12;105Hw\u001b[1;46r\u001b[H\u001b[12;106H"
+    ],
+    [
+      0.104221,
+      "\u001b[1;45r\u001b[H\u001b[12;106Ho\u001b[1;46r\u001b[H\u001b[12;107H"
+    ],
+    [
+      0.095751,
+      "\u001b[1;45r\u001b[H\u001b[12;107Hr\u001b[1;46r\u001b[H\u001b[12;108H"
+    ],
+    [
+      0.128166,
+      "\u001b[1;45r\u001b[H\u001b[12;108Hl\u001b[1;46r\u001b[H\u001b[12;109H"
+    ],
+    [
+      0.055873,
+      "\u001b[1;45r\u001b[H\u001b[12;109Hd\u001b[1;46r\u001b[H\u001b[12;110H"
+    ],
+    [
+      0.207989,
+      "\u001b[1;45r\u001b[H\u001b[12;110H!\u001b[1;46r\u001b[H\u001b[12;111H"
+    ],
+    [
+      0.49594,
+      "\u001b[1;45r\u001b[H\u001b[12;111H\"\u001b[1;46r\u001b[H\u001b[12;112H"
+    ],
+    [
+      0.560417,
+      "\u001b[1;45r\u001b[H\u001b[12;112H'\u001b[1;46r\u001b[H\u001b[12;113H"
+    ],
+    [
+      0.271802,
+      "\u001b[1;45r\u001b[H\u001b[12;113H)\u001b[1;46r\u001b[H\u001b[12;114H"
+    ],
+    [
+      0.29613,
+      "\u001b[13;75H"
+    ],
+    [
+      0.000478,
+      "\u001b[1;45r\u001b[H\u001b[45d\u001b[38;5;255m\u001b[48;5;236mhello\u001b[Cworld!\u001b[1;46r\u001b[H\u001b[13;75H\u001b(B\u001b[m"
+    ],
+    [
+      0.000426,
+      "\u001b[1;45r\u001b[H\u001b[13;75H>>> \u001b[1;46r\u001b[H\u001b[13;79H"
+    ],
+    [
+      11.528011,
+      "\u001b[1;45r\u001b[H\u001b[13;79H^D\u001b[1;46r\u001b[H\u001b[13;81H\u001b[14;75H"
+    ],
+    [
+      0.018278,
+      "\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:python*                                                                                              \"~/Projects/pycon2016_\" 22:21 02- 8-16\u001b(B\u001b[m\u001b[14;75H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.043102,
+      "\u001b[1;45r\u001b[H\u001b[15;75H\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages*\u001b[33m 35s\u001b[1;46r\u001b[H\u001b[16;75H\u001b(B\u001b[m\u001b[1;45r\u001b[H\u001b[16;75H                                                                        \u001b[17;75H                                                                        \u001b[18;75H                                                                        \u001b[19;75H                                                                        \u001b[20;75H                                                                        \u001b[21;75H                                                                        \u001b[22;75H                                                                        \u001b[23;75H                                                                        \u001b[24;75H                                                                        \u001b[25;75H                                                                        \u001b[26;75H                                                                        \u001b[27;75H                   "
+    ],
+    [
+      4.5e-05,
+      "                                                     \u001b[28;75H                                                                        \u001b[29;75H                                                                        \u001b[30;75H                                                                        \u001b[31;75H                                                                        \u001b[32;75H                                                                        \u001b[33;75H                                                                        \u001b[34;75H                                                                        \u001b[35;75H                                                                        \u001b[36;75H                                                                        \u001b[37;75H                                                                        \u001b[38;75H                                                                        \u001b[39;75H                                                                        \u001b[40;75H   "
+    ],
+    [
+      0.000159,
+      "                                                                     \u001b[41;75H                                                                        \u001b[42;75H                                                                        \u001b[43;75H                                                                        \u001b[44;75H                                                                        \u001b[45;75H                                                                        \u001b[16;75H(neovim) \u001b[35m❯\u001b[39m                                                              \u001b[16;1H\u001b[1;46r\u001b[H\u001b[16;86H"
+    ],
+    [
+      0.000208,
+      "\u001b[1;45r\u001b[H\u001b[16;75H                                                                        \u001b[17;75H                                                                        \u001b[18;75H                                                                        \u001b[19;75H                                                                        \u001b[20;75H                                                                        \u001b[21;75H                                                                        \u001b[22;75H                                                                        \u001b[23;75H                                                                        \u001b[24;75H                                                                        \u001b[25;75H                                                                        \u001b[26;75H                                                                        \u001b[27;75H                                                                        \u001b[28;75H                                              "
+    ],
+    [
+      3.7e-05,
+      "                          \u001b[29;75H                                                                        \u001b[30;75H                                                                        \u001b[31;75H                                                                        \u001b[32;75H                                                                        \u001b[33;75H                                                                        \u001b[34;75H                                                                        \u001b[35;75H                                                                        \u001b[36;75H                                                                        \u001b[37;75H                                                                        \u001b[38;75H                                                                        \u001b[39;75H                                                                        \u001b[40;75H                                                                        \u001b[41;75H                              "
+    ],
+    [
+      5.5e-05,
+      "                                          \u001b[42;75H                                                                        \u001b[43;75H                                                                        \u001b[44;75H                                                                        \u001b[45;75H                                                                        \u001b[16;75H(neovim) \u001b[35m❯\u001b[39m                                                              \u001b[16;1H\u001b[1;46r\u001b[H\u001b[16;86H\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.730907,
+      "\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:zsh*                                                                                                 \"~/Projects/pycon2016_\" 22:21 02- 8-16\u001b(B\u001b[m\u001b[16;86H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000173,
+      "\u001b[17;75H\u001b[?2004l"
+    ],
+    [
+      0.009652,
+      "\u001b[1;45r\u001b[H\u001b[18;75HThank you. Come again!\u001b[19;75H  -- Dr. Apu Nahasapeemapetilon\u001b[1;46r\u001b[H\u001b[20;75H"
+    ],
+    [
+      0.008138,
+      "\u001b[?25l\u001b[H\u001b[38;5;236m\u001b[48;5;141m [No Name] \u001b[38;5;141m\u001b[48;5;236m\u001b[38;5;255m                                                  \u001b[38;5;236m\u001b[38;5;228m\u001b[38;5;16m\u001b[48;5;228m buffers \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;246m\u001b[48;5;236m  1 \u001b[38;5;255m                                                                     \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                   "
+    ],
+    [
+      6.9e-05,
+      "                                                     \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                              \u001b[38;5;255mNVIM 0.1.4\u001b[38;5;240m                                \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                       \u001b[38;5;255mby Bram Moolenaar et al.\u001b[38;5;240m                         \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                \u001b[38;5;255m빔은 소스가 열려 있고 공짜로 배포됩니다\u001b[38;5;240m                 \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[4"
+    ],
+    [
+      0.000158,
+      "9m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                  \u001b[38;5;255mFirst time using a vi-like editor?\u001b[38;5;240m                    \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                  \u001b[38;5;255mType :Tutor\u001b[38;5;240m<Enter>\u001b[38;5;255m to get started!\u001b[38;5;240m                    \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                   \u001b[38;5;255mAlready know your way around Vim?\u001b[38;5;240m                    \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~          \u001b[38;5;255mSee :help nvim-intro for an introduction to Neovim.\u001b[38;5;240m           \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                         \u001b[38;5;255mStill have questions?\u001b[38;5;240m                          \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~       \u001b[38;5;255mReach out to the Neovim community at neovim.io/community.\u001b[38;5;240m      "
+    ],
+    [
+      0.000107,
+      "  \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                        \u001b[38;5;255m빔 사용자로 등록하세요!\u001b[38;5;240m                         \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~        \u001b[38;5;255m이에 대한 정보를 보려면    :help register\u001b[38;5;240m<엔터>\u001b[38;5;255m   입력\u001b[38;5;240m          \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~        \u001b[38;5;255m끝내려면                   :q\u001b[38;5;240m<엔터>\u001b[38;5;255m               입력\u001b[38;5;240m          \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~        \u001b[38;5;255m온라인 도움말을 보려면     :help\u001b[38;5;240m<엔터>\u001b[38;5;255m 또는 \u001b[38;5;240m<F1>\u001b[38;5;255m  입력\u001b[38;5;240m          \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~            \u001b[38;5;255mtype  :help nvim\u001b[38;5;240m<Enter>\u001b[38;5;255m       for Neovim help \u001b[38;5;24"
+    ],
+    [
+      9.6e-05,
+      "0m              \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[3"
+    ],
+    [
+      0.000226,
+      "8;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                        \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;236m\u001b[48;5;141m \u001b[1mNORMAL\u001b(B\u001b[m\u001b[38;5;236m\u001b[48;5;141m \u001b[38;5;141m\u001b[48;5;238m\u001b[38;5;238m\u001b[48;5;236m\u001b[38;5;255m [이름 없음]                                \u001b[38;5;236m\u001b[38;5;238m\u001b[38;5;141m\u001b[48;5;238m\u001b[38;5;236m\u001b[48;5;141m 100% \u001b[1m   0\u001b(B\u001b[m\u001b[38;5;236m\u001b[48;5;141m:  1 \u001b[39m\u001b[49m\u001b[K\r\n\u001b[38;5;255m\u001b[48;5;236mhello world!                                                             \u001b[39m\u001b[49m\u001b[K\r\n\u001b[30m\u001b[42m[14] 0:zsh*                                                                                                 \"pycon2016_program31: \" 22:21 02- 8-16\u001b(B\u001b[m\u001b[2;5H\u001b[?12l\u001b[?25h\u001b[?1006h\u001b[?1002h\u001b[?1l\u001b>\u001b[?2004h"
+    ],
+    [
+      0.037427,
+      "\u001b[1;45r\u001b[H\u001b[38;5;255m\u001b[48;5;236m                                                                                                                                                  \u001b[2;1H                                                                                                                                                  \u001b[3;1H                                                                                                                                                  \u001b[4;1H                                                                                                                                                  \u001b[5;1H                                                                                                                                                  \u001b[6;1H                                                                                                                                                  \u001b[7;1H                                                           \u001b[1;46r\u001b[H\u001b[7;60H\u001b[?2"
+    ],
+    [
+      7.2e-05,
+      "5l\u001b(B\u001b[m"
+    ],
+    [
+      0.001868,
+      "\u001b[1;45r\u001b[H\u001b[7;60H\u001b[38;5;255m\u001b[48;5;236m                                                                                       \u001b[8;1H                                                                                                                                                  \u001b[9;1H                                                                                                                                                  \u001b[10;1H                                                                                                                                                  \u001b[11;1H                                                                                                                                                  \u001b[12;1H                                                                                                                                                  \u001b[13;1H                                                                                                                                "
+    ],
+    [
+      0.001713,
+      "                  \u001b[14;1H              \u001b[1;46r\u001b[H\u001b[14;15H\u001b(B\u001b[m\u001b[1;45r\u001b[H\u001b[14;15H\u001b[38;5;255m\u001b[48;5;236m                                                                                                                                    \u001b[15;1H                                                                                                                                                  \u001b[16;1H                                                                                                                                                  \u001b[17;1H                                                                                                                                                  \u001b[18;1H                                                                                                                                                  \u001b[19;1H                                                                                                                                                  \u001b[20;1H                 "
+    ],
+    [
+      0.001642,
+      "                                                                                                       \u001b[1;46r\u001b[H\u001b[20;121H\u001b(B\u001b[m\u001b[1;45r\u001b[H\u001b[20;121H\u001b[38;5;255m\u001b[48;5;236m                          \u001b[21;1H                                                                                                                                                  \u001b[22;1H                                                                                                                                                  \u001b[23;1H                                                                                                                                                  \u001b[24;1H                                                                                                                                                  \u001b[25;1H                                                                                                                                                  \u001b[26;1H                                                         "
+    ],
+    [
+      0.001747,
+      "                                                                                         \u001b[27;1H                                                                         \u001b[1;46r\u001b[H\u001b[27;74H\u001b(B\u001b[m\u001b[1;45r\u001b[H\u001b[27;74H\u001b[38;5;255m\u001b[48;5;236m                                                                         \u001b[28;1H                                                                                                                                                  \u001b[29;1H                                                                                                                                                  \u001b[30;1H                                                                                                                                                  \u001b[31;1H                                                                                                                                                  \u001b[32;1H                                                                                                   "
+    ],
+    [
+      0.001725,
+      "                                               \u001b[33;1H                                                                                                                                                  \u001b[34;1H                          \u001b[1;46r\u001b[H\u001b[34;27H\u001b(B\u001b[m\u001b[1;45r\u001b[H\u001b[34;27H\u001b[38;5;255m\u001b[48;5;236m                                                                                                                        \u001b[35;1H                                                                                                                                                  \u001b[36;1H                                                                                                                                                  \u001b[37;1H                                                                                                                                                  \u001b[38;1H                                                                                                                                             "
+    ],
+    [
+      0.001426,
+      "     \u001b[39;1H                                                                                                                                                  \u001b[40;1H                                                                                                                                    \u001b[1;46r\u001b[H\u001b[40;133H\u001b(B\u001b[m\u001b[1;45r\u001b[H\u001b[40;133H\u001b[38;5;255m\u001b[48;5;236m              \u001b[41;1H                                                                                                                                                  \u001b[42;1H                                                                                                                                                  \u001b[43;1H                                                                                                                                                  \u001b[44;1H                                                                                                                                                  \u001b[45;1H                            "
+    ],
+    [
+      0.001141,
+      "                                                                                                                      \u001b[45;1H\u001b[1;46r\u001b[H\u001b[?12l\u001b[?25h\u001b(B\u001b[m\u001b[1;45r\u001b[38;5;236m\u001b[48;5;141m [No Name] \u001b[38;5;141m\u001b[48;5;236m\u001b[38;5;255m                                                                                                                           \u001b[38;5;236m\u001b[38;5;228m\u001b[38;5;16m\u001b[48;5;228m buffers \u001b[2;1H\u001b[38;5;246m\u001b[48;5;236m  1 \u001b[79C\u001b[38;5;255m\u001b[48;5;238m \r\n\u001b[38;5;240m\u001b[48;5;236m~                                                                                                                                                 \u001b[4;1H~                                                                                                                                                 \u001b[5;1H~                                                                                                                                                 \u001b[6;1H~                         \u001b[1;46r\u001b[H\u001b[6;27H\u001b[?25l\u001b(B\u001b[m"
+    ],
+    [
+      0.001618,
+      "\u001b[1;45r\u001b[H\u001b[6;27H\u001b[38;5;240m\u001b[48;5;236m                                                                                                                        \u001b[7;1H~                                                                                                                                                 \u001b[8;1H~                                                                                                                                                 \u001b[9;1H~                                                                                                                                                 \u001b[10;1H~                                                                                                                                                 \u001b[11;1H~                                                                                                                                                 \u001b[12;1H~                                                                                               "
+    ],
+    [
+      0.001608,
+      "                                       \u001b[1;46r\u001b[H\u001b[12;136H\u001b(B\u001b[m\u001b[1;45r\u001b[H\u001b[12;136H\u001b[38;5;240m\u001b[48;5;236m           \u001b[13;1H~                                                                                                                                                 \u001b[14;1H~                                                                                                                                                 \u001b[15;1H~                                                                                                                                                 \u001b[16;1H~                                                                                                                                                 \u001b[17;1H~                                                                                                                                                 \u001b[18;1H~                                                                                                                                       "
+    ],
+    [
+      0.001561,
+      "          \u001b[19;1H~                                                                                       \u001b[1;46r\u001b[H\u001b[19;89H\u001b(B\u001b[m\u001b[1;45r\u001b[H\u001b[19;89H\u001b[38;5;240m\u001b[48;5;236m                                                          \u001b[20;1H~                                                                                                                                                 \u001b[21;1H~                                                                                                                                                 \u001b[22;1H~                                                                                                                                                 \u001b[23;1H~                                                                                                                                                 \u001b[24;1H~                                                                                                                                                 \u001b[25;1H~                        "
+    ],
+    [
+      0.001623,
+      "                                                                                                                         \u001b[26;1H~                                        \u001b[1;46r\u001b[H\u001b[26;42H\u001b(B\u001b[m\u001b[1;45r\u001b[H\u001b[26;42H\u001b[38;5;240m\u001b[48;5;236m                                                                                                         \u001b[27;1H~                                                                                                                                                 \u001b[28;1H~                                                                                                                                                 \u001b[29;1H~                                                                                                                                                 \u001b[30;1H~                                                                                                                                                 \u001b[31;1H~                                                                  "
+    ],
+    [
+      0.00159,
+      "                                                                               \u001b[32;1H~                                                                                                                                                 \u001b[32;1H\u001b[1;46r\u001b[H\u001b[32;146H\u001b(B\u001b[m\u001b[1;45r\u001b[H\u001b[33d\u001b[38;5;240m\u001b[48;5;236m~                                                                                                                                                 \u001b[34;1H~                                                                                                                                                 \u001b[35;1H~                                                                                                                                                 \u001b[36;1H~                                                                                                                                                 \u001b[37;1H~                                                                                                              "
+    ],
+    [
+      0.001172,
+      "                                   \u001b[38;1H~                                                                                                                                                 \u001b[39;1H~                                                                                                   \u001b[1;46r\u001b[H\u001b[39;101H\u001b(B\u001b[m\u001b[1;45r\u001b[H\u001b[39;101H\u001b[38;5;240m\u001b[48;5;236m                                              \u001b[40;1H~                                                                                                                                                 \u001b[41;1H~                                                                                                                                                 \u001b[42;1H~                                                                                                                                                 \u001b[43;1H~                                                                                                                                                 \u001b[44;"
+    ],
+    [
+      0.000254,
+      "1H\u001b[38;5;236m\u001b[48;5;141m \u001b[1mNORMAL\u001b(B\u001b[m\u001b[38;5;236m\u001b[48;5;141m \u001b[38;5;141m\u001b[48;5;238m\u001b[38;5;231m +0 ~0 -0  \u001b[38;5;238m\u001b[48;5;236m\u001b[38;5;255m [이름 없음]     \u001b[1;46r\u001b[H\u001b[44;39H\u001b(B\u001b[m\u001b[1;45r\u001b[H\u001b[44;39H\u001b[38;5;255m\u001b[48;5;236m                                                                               \u001b[38;5;236m\u001b[38;5;238m\u001b[38;5;231m\u001b[48;5;238m [unix] \u001b[38;5;141m\u001b[38;5;236m\u001b[48;5;141m 100% \u001b[1m   0\u001b(B\u001b[m\u001b[38;5;236m\u001b[48;5;141m:  1 \u001b[38;5;166m\u001b[38;5;88m\u001b[48;5;166m\u001b[44;1H\u001b[1;46r\u001b[H\u001b[2;5H\u001b[?12l\u001b[?25h\u001b(B\u001b[m"
+    ],
+    [
+      0.963141,
+      "\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:nvim*                                                                                                \"pycon2016_program31: \" 22:21 02- 8-16\u001b(B\u001b[m\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.001811,
+      "\u001b[1;45r\u001b[H\u001b[45d\u001b[38;5;255m\u001b[48;5;236m:\u001b[1;46r\u001b[H\u001b[45;2H\u001b(B\u001b[m"
+    ],
+    [
+      0.10965,
+      "\u001b[1;45r\u001b[H\u001b[45;2H\u001b[38;5;255m\u001b[48;5;236mq\u001b[1;46r\u001b[H\u001b[45;3H\u001b(B\u001b[m"
+    ],
+    [
+      0.136156,
+      "\r"
+    ],
+    [
+      0.02423,
+      "\u001b[?25l\u001b[H\u001b[K\r\n\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages*\u001b[39m\u001b[K\r\n\u001b[35m❯\u001b[39m NVIM_LISTEN_ADDRESS=127.0.0.1:121212 nvim\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[4d\u001b[?12l\u001b[?25h\u001b[?1002l\u001b[?1006l\u001b[?2004l"
+    ],
+    [
+      0.041803,
+      "\u001b[?25l\u001b[46d\u001b[30m\u001b[42m[14] 0:nvim*                                                                                                \"~/Projects/pycon2016_\" 22:21 02- 8-16\u001b(B\u001b[m\u001b[4;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.042893,
+      "\u001b[1;45r\u001b[H\u001b[4B\u001b[34m~/Projects/pycon2016_program31\u001b[38;5;242m gh-pages*\u001b[33m 43s\u001b[1;46r\u001b[H\u001b[5B\u001b(B\u001b[m\u001b[1;45r\u001b[H\u001b[5B\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[6d\u001b[35m❯\u001b[39m \u001b[K\u001b[1;46r\u001b[H\u001b[6;3H"
+    ],
+    [
+      3e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000138,
+      "\u001b[1;45r\u001b[H\u001b[5B\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[6d\u001b[35m❯\u001b[39m \u001b[K\u001b[1;46r\u001b[H\u001b[6;3H"
+    ],
+    [
+      1.9e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.403187,
+      "\u001b[?25l\u001b[46;1H\u001b[30m\u001b[42m[14] 0:zsh*                                                                                                 \"~/Projects/pycon2016_\" 22:21 02- 8-16\u001b(B\u001b[m\u001b[6;3H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000133,
+      "\r\n\u001b[?2004l"
+    ],
+    [
+      0.008845,
+      "\u001b[1;45r\u001b[H\u001b[7BThank you. Come again!\r\n  -- Dr. Apu Nahasapeemapetilon\u001b[1;46r\u001b[H\u001b[9B"
+    ],
+    [
+      0.001453,
+      "\u001b[1;46r\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b]112\u0007\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b[?1049l"
+    ],
+    [
+      0.000252,
+      "[exited]\r\n"
+    ],
+    [
+      0.011438,
+      "\u001b]0;~/Projects/pycon2016_program31"
+    ],
+    [
+      2.8e-05,
+      "\u0007"
+    ],
+    [
+      0.043791,
+      "\r\n\u001b[34m~/Projects/pycon2016_program31\u001b[39m\u001b[38;5;242m gh-pages*\u001b[39m\u001b[36m\u001b[39m\u001b[33m 1m 5s\u001b[39m\r\n"
+    ],
+    [
+      0.000147,
+      "\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[35m❯\u001b[39m \u001b[K\u001b[?1h\u001b="
+    ],
+    [
+      0.000162,
+      "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[35m❯\u001b[39m \u001b[K"
+    ],
+    [
+      8.2e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      1.117415,
       "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.013642,
+      "\u001b]0;~/Projects/pycon2016_program31\u0007"
+    ],
+    [
+      0.043701,
+      "\r\n\u001b[34m~/Projects/pycon2016_program31\u001b[39m\u001b[38;5;242m gh-pages*\u001b[39m\u001b[36m\u001b[39m\u001b[33m\u001b[39m\r\n"
+    ],
+    [
+      3.1e-05,
+      "\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[31m❯\u001b[39m \u001b[K"
+    ],
+    [
+      1.6e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000134,
+      "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[31m❯\u001b[39m \u001b[K"
+    ],
+    [
+      5.2e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      1.214681,
+      "e"
+    ],
+    [
+      0.207904,
+      "\bex"
+    ],
+    [
+      0.151856,
+      "i"
+    ],
+    [
+      0.071837,
+      "t"
+    ],
+    [
+      0.111938,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.000266,
+      "\u001b[?2004l\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[31m❯\u001b[39m exit\u001b[K"
+    ],
+    [
+      0.000141,
+      "\r\r\n"
+    ],
+    [
+      0.000588,
+      "\u001b]0;pycon2016_program31: exit"
+    ],
+    [
+      2.7e-05,
+      "\u0007"
     ]
   ],
-  "width": 159
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/usr/local/bin/zsh"
+  },
+  "command": null,
+  "version": 1,
+  "title": null,
+  "width": 146
 }

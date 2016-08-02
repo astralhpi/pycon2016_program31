@@ -30,7 +30,9 @@ class: middle
 
 class: center, middle
 
-![neovim logo](./images/neovim-logo.svg)
+.logo[
+  ![neovim logo](./images/neovim-logo.svg)
+]
 
 --
 
@@ -106,6 +108,7 @@ class: middle
 ### 0. python-neovim 설치
 
 ```bash
+> # python-neovim은 neovim의 RPC API를 호출하기 위한 모듈
 > pip install neovim
 ```
 
@@ -129,3 +132,11 @@ class: middle
 >>> nvim.command('echo "hello world!"')
 
 ```
+
+---
+
+# Hello World!
+
+.right[[asciinema로 동영상 보기](https://asciinema.org/a/81579)]
+![hello world 출력 화면](./images/nvim_helloworld.png)
+
