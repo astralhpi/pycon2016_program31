@@ -98,6 +98,51 @@ class: middle
 ---
 
 class: middle
+# "remote plugin"
+## neovim의 msgpack-rpc를 통해 동작하는 plugin
+
+---
+
+class: middle
+
+## 어떤 언어로든 쉽게 remote plugin 개발 가능!!
+
+---
+
+# 현재 지원하는 API 플랫폼
+
+* C#
+* C++
+* Clojure
+* Common Lisp
+* Elixir
+* Filesystem
+* Go
+* Haskell
+* Java
+* Julia
+* Lua
+* Node.js
+* Perl
+* R
+* Ruby
+* Rust
+
+...
+
+---
+
+class: middle, center
+
+# 그리고 당연히 **Python**!!
+
+--
+## 이미 많은 플러그인들이 Python으로 개발됨
+### Floobits, deoplete, lldb.nvim, nvim-ipy, proteome.nvim ...
+
+---
+
+class: middle
 
 # Hello World!
 한번 해봅시다.
@@ -140,3 +185,9 @@ class: middle
 .right[[asciinema로 동영상 보기](https://asciinema.org/a/81579)]
 ![hello world 출력 화면](./images/nvim_helloworld.png)
 
+---
+
+class: middle
+
+# msgpack-rpc 장점
+### 어떤 언어로든 remote plugin이 개발 가능합니다.
