@@ -97,19 +97,7 @@ class: middle
 
 ---
 
-class: middle
-# "remote plugin"
-## neovim의 msgpack-rpc를 통해 동작하는 plugin
-
----
-
-class: middle
-
-## 어떤 언어로든 쉽게 remote plugin 개발 가능!!
-
----
-
-# 현재 지원하는 API 플랫폼
+## 현재 API 클라이언트 모듈이 있는 플랫폼
 
 * C#
 * C++
@@ -136,13 +124,9 @@ class: middle, center
 
 # 그리고 당연히 **Python**!!
 
---
-## 이미 많은 플러그인들이 Python으로 개발됨
-### Floobits, deoplete, lldb.nvim, nvim-ipy, proteome.nvim ...
-
 ---
 
-class: middle
+class: middle, center
 
 # Hello World!
 한번 해봅시다.
@@ -188,6 +172,22 @@ class: middle
 ---
 
 class: middle
+# "remote plugin"
 
-# msgpack-rpc 장점
-### 어떤 언어로든 remote plugin이 개발 가능합니다.
+--
+## neovim의 msgpack-rpc를 통해 동작하는 plugin
+
+---
+
+class: middle
+## 어떤 언어로든 쉽게 neovim plugin 개발 가능!!
+
+---
+class: middle
+
+## 이미 많은 플러그인들이 Python으로 개발됨
+### Floobits, deoplete, lldb.nvim, nvim-ipy, proteome.nvim ...
+
+---
+
+
