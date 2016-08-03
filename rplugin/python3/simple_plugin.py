@@ -10,7 +10,7 @@ class SimplePlugin(object):
     def helloworld_rpc(self, *args):
         self.nvim.call('helloworld')
 
-    @neovim.function('helloworld', sync=True)
+    @neovim.function('HelloWorld', sync=True)
     def helloworld(self, args):
         self.nvim.command('echo "hello world!"')
 
