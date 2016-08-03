@@ -13,13 +13,13 @@ class SimplePlugin(object):
 
     @neovim.function('HelloWorld', sync=True)
     def helloworld(self, args):
-        time.sleep(5000)
+        time.sleep(5)
         self.nvim.command('echo "hello world!"')
         return 0
 
     @neovim.function('AsyncHelloWorld', sync=False)
     def async_helloworld(self, args):
-        time.sleep(5000)
+        time.sleep(5)
         self.nvim.command('echo "hello world!"')
         return 0
 
