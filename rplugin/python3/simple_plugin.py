@@ -7,5 +7,5 @@ class SimplePlugin(object):
         self.nvim = nvim
 
     @neovim.command('HelloWorld', range='', nargs='*')
-    def helloworld(self, args):
+    def helloworld(self, args, range):
         self.nvim.command('echo "hello world!"')
