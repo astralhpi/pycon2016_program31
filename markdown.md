@@ -137,7 +137,7 @@ class: middle, center
 ### 0. python-neovim 설치
 
 ```bash
-> # python-neovim은 neovim의 RPC API를 호출하기 위한 모듈
+> # python-neovim은 neovim의 RPC API을 사용하기  위한 모듈
 > pip install neovim
 ```
 
@@ -185,7 +185,7 @@ class: middle
 ---
 class: middle
 
-## 이미 많은 플러그인들이 Python으로 개발됨
+## 이미 여러 플러그인들이 Python으로 개발됨
 ### Floobits, deoplete, lldb.nvim, nvim-ipy, proteome.nvim ...
 
 ---
