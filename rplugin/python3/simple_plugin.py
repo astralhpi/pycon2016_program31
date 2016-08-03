@@ -13,4 +13,4 @@ class SimplePlugin(object):
 
     @neovim.command('HelloWorld', range='', nargs='*')
     def helloworld_command(self, args, range):
-        self.nvim.call('HelloWorld()')
+        self.nvim.call('HelloWorld')
