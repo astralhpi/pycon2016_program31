@@ -6,7 +6,7 @@ class SimplePlugin(object):
     def __init__(self, nvim):
         self.nvim = nvim
 
-    @neovim.rpc_export("helloworld")
+    @neovim.rpc_export("HelloWorld")
     def helloworld_rpc(self, *args):
         self.nvim.call('HelloWorld')
 
@@ -17,4 +17,4 @@ class SimplePlugin(object):
 
     @neovim.command('HelloWorld', range='', nargs='*')
     def helloworld_command(self, args, range):
-        self.nvim.call('helloworld')
+        self.nvim.call('HelloWorld')
