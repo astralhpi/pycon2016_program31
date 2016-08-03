@@ -8,7 +8,7 @@ class SimplePlugin(object):
 
     @neovim.rpc_export("helloworld")
     def helloworld_rpc(self, *args):
-        self.nvim.call('helloworld')
+        self.nvim.call('HelloWorld')
 
     @neovim.function('HelloWorld', sync=True)
     def helloworld(self, args):
