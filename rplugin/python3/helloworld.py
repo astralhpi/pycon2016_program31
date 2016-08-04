@@ -29,5 +29,5 @@ class SimplePlugin(object):
         self.nvim.call('HelloWorld')
 
     @neovim.autocmd('BufEnter')
-    def helloworld_autocmd(self, filename):
+    def helloworld_autocmd(self, *args):
         self.nvim.call('HelloWorld')
