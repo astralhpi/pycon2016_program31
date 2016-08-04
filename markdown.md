@@ -6,12 +6,6 @@ class: center, middle, inverse
 
 .author[송재학 ([master@hpi.cc](mailto:master@hpi.cc))]
 
-???
-안녕하세요. 이번 PYCON 2016 APAC에 훌륭한 프로그램들이 많던데, 그럼에도 불구하고
-본 프로그램을 선택해주셔서 감사합니다. 본 프로그램은 Python으로 만드는 neovim
-async plugin 입니다. 본 브로그램에서는 neovim에 대한 소개와 장점, 그리고 프로그램
-제목처럼 python으로 neovim async plugin을 개발하는 법을 다뤄보록 하겠습니다.
-
 ---
 class: middle
 
@@ -39,11 +33,6 @@ class: center, middle
 class: center, middle
 ## 말그대로 vim의 미래
 vim을 적극적으로 리팩토링한 superset
-
-???
-공식 사이트의 메인에 있는 슬로건을 그대로 옮긴다면, neovim은 '말그대로 vim의 미래'
-입니다. neovim은 vim을 적극적으로 리팩토링한 프로젝트로, 기존 vim에서 기능이
-추가된 superset을 지향하고 있습니다.
 
 ---
 
@@ -74,16 +63,17 @@ class: middle
 
 ---
 
-class: middle, center
+class: middle
 
 # 더 강력한 플러그인
-오늘은 여기에만 집중해봅시다.
+
+* 오늘은 여기에만 집중해봅시다.
 
 ---
 
 class: middle
 
-## 더 강력한 플러그인
+# 더 강력한 플러그인
   
   * 핵심은 msgpack-rpc
 
@@ -120,16 +110,16 @@ class: middle
 
 ---
 
-class: middle, center
+class: middle
 
 # 그리고 당연히 **Python**!!
 
 ---
 
-class: middle, center
+class: middle
 
 # Hello World!
-한번 해봅시다.
+### python-neovim 모듈을 사용해서 "Hello World!" 출력 해보기
 
 ---
 
@@ -189,5 +179,145 @@ class: middle
 ### Floobits, deoplete, lldb.nvim, nvim-ipy, proteome.nvim ...
 
 ---
+class: middle
 
+## 간단한 플러그인을 만들어 봅시다
+
+---
+
+class: middle
+
+## SimplePlugin 플러그인 예제
+
+```python
+# ~/.config/nvim/rplugin/python/simple.py
+
+import neovim
+
+@neovim.plugin
+class SimplePlugin(object):
+
+    def __init__(self, nvim):
+        self.nvim = nvim
+
+    @neovim.function('SimpleFunc')
+    def func(self, args):
+        self.nvim.command('echo "simple func"')
+
+    @neovim.command('SimpleCommand', range='', nargs='*')
+    def command(self, args, range):
+        self.nvim.command('echo "simple command"')
+
+    @neovim.autocmd('BufEnter', pattern="*.py")
+    def autocmd(self):
+        self.nvim.command('echo "simple autocmd"')
+```
+
+---
+
+class: middle
+### 파일 작성 후, neovim상에서
+```vim
+:UpdateRemotePlugins
+```
+### 해주면 플러그인이 동작합니다!
+
+---
+
+class: middle
+
+## 참 쉽죠?
+
+--
+
+### 그래도 차근차근 살펴봅시다.
+
+---
+
+class: middle
+
+## SimplePlugin 살펴보기- class 선언 
+
+```python
+import neovim
+import time
+
+@neovim.plugin
+class SimplePlugin(object):
+
+    def __init__(self, nvim):
+        self.nvim = nvim
+```
+
+플러그인 class를 선언하고 생성자를 지정해 줍니다.
+
+---
+
+class: middle
+
+## SimplePlugin 살펴보기- vim 함수 등록
+
+```python
+    @neovim.function('SimpleFunc')
+    def func(self, args):
+        self.nvim.command('echo "simple func"')
+```
+
+* vim 함수를 등록합니다.
+
+--
+
+#### 다른 vim 함수와 똑같이 사용할 수 있습니다.
+```vim
+:call SimpleFunc()
+"simple func"
+
+```
+
+---
+
+class: middle
+
+## SimplePlugin 살펴보기- command 등록
+
+```python
+    @neovim.command('SimpleCommand', range='', nargs='*')
+    def command(self, args, range):
+        self.nvim.command('echo "simple command"')
+```
+
+* vim command를 등록합니다.
+
+--
+
+#### 마찬가지로, vim의 다른 command와 똑같이 사용할 수 있습니다.
+```vim
+:SimpleCommand
+"simple command"
+```
+ 
+---
+
+class: middle
+
+## SimplePlugin 살펴보기 - autocmd 등록
+
+```python
+    @neovim.autocmd('BufEnter', pattern="*.py")
+    def autocmd(self):
+        self.nvim.command('echo "simple autocmd"')
+```
+
+
+* autocmd를등록합니다.
+  * 이 경우에는 버퍼에 들어가는 경우 실행되는 autocmd 입니다.
+  * 확장자가 py로 끝나는 경우에만 실행됩니다.
+
+--
+
+```vim
+:help autocommand-events
+```
+
+명령어로 지원하는 이벤트를 확인할 수 있습니다.
 
