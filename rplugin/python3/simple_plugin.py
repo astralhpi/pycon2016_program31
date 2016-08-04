@@ -27,3 +27,7 @@ class SimplePlugin(object):
     @neovim.command('HelloWorld', range='', nargs='*')
     def helloworld_command(self, args, range):
         self.nvim.call('HelloWorld')
+
+    @neovim.autocmd('BufEnter')
+    def helloworld_autocmd(self, filename):
+        self.nvim.call('HelloWorld')
