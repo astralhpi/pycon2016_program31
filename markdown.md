@@ -83,7 +83,7 @@ class: middle
 
 # msgpack-rpc
  * neovim은 서버로 동작함
- * stdin/stdout, socket을 통해 neovim의 RPC API를 사용할 수 있음
+ * stdin/stdout, socket 등을 통해 neovim의 RPC API를 사용할 수 있음
 
 ---
 
@@ -137,7 +137,7 @@ class: middle
 
 ```bash
 > # NVIM_LISTEN_ADDRESS: neovim의 RPC 주소 지정
-> NVIM_LISTEN_ADDRESS=127.0.0.1:121212 nvim
+> NVIM_LISTEN_ADDRESS=/tmp/nvim nvim
 ```
 
 --
@@ -147,7 +147,7 @@ class: middle
 ``` python
 > python
 >>> from neovim import attach
->>> nvim = attach('socket', path='127.0.0.1:121212')
+>>> nvim = attach('socket', path='/tmp/nvim')
 >>> nvim.command('echo "hello world!"')
 
 ```
@@ -356,9 +356,9 @@ class: middle
 
 * 덕룡이는 최근 Python으로 알고리즘 문제를 풀고 있습니다.
 
-* 그런데, 코드를 수정할 때마다 수동으로 코드를 실행해보는 것이 너무 귀찮습니다. 
+* 그런데, 수동으로 코드를 실행해보는 것이 너무 귀찮습니다. 
 
-* 그래서 코드를 저장할 때마다 자동으로 코드가 실행되었으면 합니다.
+* 코드를 저장할 때마다 자동으로 코드가 실행되었으면 합니다.
 
 
 ---
@@ -366,7 +366,7 @@ class: middle
 
 ## 플러그인 만들기
 
-* 다행히 덕룡이는 문제를 정답 체크를 할 수 있는 스크립트를 미리 만들어 뒀습니다.
+* 다행히 덕룡이는 정답 체크를 할 수 있는 스크립트를 미리 만들어 뒀습니다.
 
 ---
 ### 미리 만들어둔 스크립트
@@ -400,3 +400,189 @@ class: middle
     ==============================
     succeed!
 ```
+---
+class: middle
+
+## 플러그인 만들기
+
+* 이 스크립트를 vim에 붙여봅시다.
+
+---
+class: middle
+
+### 1단계: 커맨드 만들기
+
+```vim
+:CheckSolution <file 경로>
+```
+
+로 실행할 수 있는 커맨드를 만들어 봅시다.
+
+---
+class: middle
+
+### 1단계: 커맨드 만들기
+
+```python
+import neovim
+import os
+from .checker import check
+
+@neovim.plugin
+class AlgoTestPlugin(object):
+
+    def __init__(self, nvim):
+        self.nvim = nvim
+```
+플러그인 클래스를 정의해주고,
+
+---
+
+class: middle
+
+### 1단계: 커맨드 만들기
+
+```python
+    @neovim.command('CheckSolution', nargs='*')
+    def command(self, args):
+        for filename in args:
+            dirname = os.path.dirname(filename)
+            inputfile = os.path.join(dirname, 'input.txt')
+            outputfile = os.path.join(dirname, 'output.txt')
+
+            result = check(filename, inputfile, outputfile)
+
+            self.nvim.command('echo "%s"' % result)
+```
+command를 정의해줍니다.
+
+---
+
+### 1단계: 커맨드 만들기
+
+```vim
+:CheckSolution solution.py
+```
+커맨드을 실행해봅니다.
+
+--
+
+```bash
+==============================
+input
+==============================
+2
+1 1
+2 2
+==============================
+expected output
+==============================
+2
+4
+==============================
+output
+==============================
+2
+4
+==============================
+run time: 0.040526
+==============================
+succeed!
+```
+
+잘됩니다.
+
+---
+
+class: middle
+
+### 2단계: 커맨드 인자 생략
+
+ * 하지만 매번 인자를 넣어줘야하는 것이 번거롭네요.
+
+ * 인자를 생략하면 현재 파일의 경로가 들어가게 합시다.
+
+---
+
+class: middle
+
+### 2단계: 커맨드 인자 생략
+
+그런데 API를 모르다보니, 시간이 많이 필요할 것 같네요.
+--
+
+
+[Hello World!에서 했던 것처럼](#15) python REPL을 사용해봅시다.
+
+
+---
+
+### 2단계: 커맨드 인자 생략
+
+```python
+>> help(nvim.current)
+# nvim.current에 buffer가 있는 것을 확인함.
+
+```
+
+--
+
+```python
+>> help(nvim.current.buffer)
+# buffer에 name이 있는 것을 확인함.
+```
+
+--
+
+```python
+>> nvim.current.buffer.name
+'/Users/jaehak/Projects/algotest/sample/solution.py'
+```
+우리에게 필요한 내용인 것 같습니다.
+
+--
+
+ ---
+
+같은 폴더의 input.txt을 열고 확인해봅니다.
+
+```python
+>> nvim.current.buffer.name
+'/Users/jaehak/Projects/algotest/sample/input.txt'
+```
+
+이 API를 사용하면 될 것 같습니다!
+
+---
+
+### 2단계: 커맨드 인자 생략
+
+
+```python
+    @neovim.command('CheckSolution', nargs='*')
+    def command(self, args):
++
++        if len(args) == 0:
++            args = [self.nvim.current.buffer.name]
++
+        for filename in args:
+            dirname = os.path.dirname(filename)
+            inputfile = os.path.join(dirname, 'input.txt')
+            outputfile = os.path.join(dirname, 'output.txt')
+
+            result = check(filename, inputfile, outputfile)
+
+            self.nvim.command('echo "%s"' % result)
+```
+
+--
+```vim
+:CheckSolution
+
+==============================
+input
+==============================
+3
+...
+```
+잘 되네요.
