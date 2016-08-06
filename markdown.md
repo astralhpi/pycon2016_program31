@@ -156,7 +156,6 @@ class: middle
 
 # Hello World!
 
-.right[[asciinema로 동영상 보기](https://asciinema.org/a/81579)]
 ![hello world 출력 화면](./images/nvim_helloworld.png)
 
 ---
@@ -182,6 +181,7 @@ class: middle
 class: middle
 
 ## 간단한 플러그인을 만들어 봅시다
+
 
 ---
 
@@ -310,7 +310,7 @@ class: middle
 
 
 * autocmd를등록합니다.
-  * 이 경우에는 버퍼에 들어가는 경우 실행되는 autocmd 입니다.
+  * 버퍼에 들어가는 경우 실행되는 autocmd 입니다.
   * 확장자가 py로 끝나는 경우에만 실행됩니다.
 
 --
@@ -321,3 +321,30 @@ class: middle
 
 명령어로 지원하는 이벤트를 확인할 수 있습니다.
 
+---
+
+class: middle
+
+## 이제,
+
+--
+
+ 1. 함수를 만들 수 있습니다.
+
+--
+
+ 2. command를 만들 수 있습니다.
+
+--
+
+ 3. 이벤트를 처리할 수 있습니다. (autocmd)
+
+--
+
+### => 플러그인을 만들 수 있습니다!
+
+--
+
+API만 안다면....
+
+---
