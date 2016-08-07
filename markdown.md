@@ -310,6 +310,9 @@ class: middle
 
 
 * autocmd를등록합니다.
+  * autocmd는 이벤트 처리를 위해 사용할 수 있습니다.
+
+* 위의 autocmd는...
   * 버퍼에 들어가는 경우 실행되는 autocmd 입니다.
   * 확장자가 py로 끝나는 경우에만 실행됩니다.
 
@@ -589,4 +592,91 @@ input
 
 ---
 
-### 플러그인 만들기 - autocmd로 자동 실행되게 하기
+class: middle
+
+## 그래도 귀찮네요.
+
+ * 현재까지는 :CheckSolution 커맨드를 실행해줘야합니다.
+ 
+ * 파일을 저장할 때, 자동으로 실행되었으면 좋겠네요.
+
+---
+
+class: middle
+
+### 플러그인 만들기 - autocmd 등록하기
+
+저장할 때, 자동으로 실행되는 autocmd를 등록해봅시다.
+
+---
+
+class: middle
+
+### 플러그인 만들기 - autocmd 등록하기
+
+```vim
+# autocmd 이벤트 리스트 확인하기
+:help autocommand-events
+```
+버퍼를 파일로 저장한 이후 실행되는 'BufWritePost' 이벤트를 발견했습니다.
+
+---
+class: middle
+
+### 플러그인 만들기 - autocmd 등록하기
+
+'BufWritePost' autocmd를 등록합시다.
+
+--
+
+```python
+    @neovim.autocmd("BufWritePost", pattern="*.py", sync=True)
+    def on_bufwrite_post(self):
+        filename = self.nvim.current.buffer.name
+
+        dirname = os.path.dirname(filename)
+        inputfile = os.path.join(dirname, 'input.txt')
+        outputfile = os.path.join(dirname, 'output.txt')
+
+        # input/output 파일이 있는 경우에만 실행
+        if all([os.path.exists(path) for path in [inputfile, outputfile]]):
+            self.nvim.command('CheckSolution %s' % filename)
+```
+
+---
+class: middle
+
+### 플러그인 만들기 - autocmd 등록하기
+
+```vim
+:w
+```
+
+```bash
+==============================
+input
+==============================
+3
+1 1
+2 2
+3 3
+
+==============================
+expected output
+==============================
+2
+4
+6
+...
+```
+
+역시 잘 동작합니다.
+
+---
+
+class: middle, center
+
+![echo를 사용하는 플러그인](./images/echo_test.gif)
+
+echo를 사용하다보니 불편하네요.
+
