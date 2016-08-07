@@ -82,8 +82,8 @@ class: middle
 class: middle
 
 # msgpack-rpc
- * neovim은 서버로 동작함
- * stdin/stdout, socket 등을 통해 neovim의 RPC API를 사용할 수 있음
+ * neovim은 서버로 동작합니다.
+ * stdin/stdout, socket 등을 통해 neovim의 RPC API를 사용할 수 있습니다.
 
 ---
 
@@ -119,7 +119,7 @@ class: middle
 class: middle
 
 # Hello World!
-### python-neovim 모듈을 사용해서 "Hello World!" 출력 해보기
+### python-neovim 모듈을 사용해서 "Hello World!" 출력 해봅시다.
 
 ---
 
@@ -127,7 +127,7 @@ class: middle
 ### 0. python-neovim 설치
 
 ```bash
-> # python-neovim은 neovim의 RPC API을 사용하기  위한 모듈
+> # neovim의 RPC API을 사용하기  위한 모듈
 > pip install neovim
 ```
 
@@ -413,7 +413,7 @@ class: middle
 ---
 class: middle
 
-### 1단계: 커맨드 만들기
+### 커맨드 만들기
 
 ```vim
 :CheckSolution <file 경로>
@@ -424,7 +424,7 @@ class: middle
 ---
 class: middle
 
-### 1단계: 커맨드 만들기
+### 커맨드 만들기
 
 ```python
 import neovim
@@ -443,7 +443,7 @@ class AlgoTestPlugin(object):
 
 class: middle
 
-### 1단계: 커맨드 만들기
+### 커맨드 만들기
 
 ```python
     @neovim.command('CheckSolution', nargs='*')
@@ -457,11 +457,11 @@ class: middle
 
             self.nvim.command('echo "%s"' % result)
 ```
-command를 정의해줍니다.
+커맨드를 정의해줍니다.
 
 ---
 
-### 1단계: 커맨드 만들기
+### 커맨드 만들기
 
 ```vim
 :CheckSolution solution.py
@@ -499,7 +499,7 @@ succeed!
 
 class: middle
 
-### 2단계: 커맨드 인자 생략
+### 커맨드 인자 생략
 
  * 하지만 매번 인자를 넣어줘야하는 것이 번거롭네요.
 
@@ -509,9 +509,9 @@ class: middle
 
 class: middle
 
-### 2단계: 커맨드 인자 생략
+### 커맨드 인자 생략
 
-그런데 API를 모르다보니, 시간이 많이 필요할 것 같네요.
+그런데 API를 모르다보니, 어디서 시작을 해야할지 모르겠네요.
 --
 
 
@@ -520,7 +520,7 @@ class: middle
 
 ---
 
-### 2단계: 커맨드 인자 생략
+### 커맨드 인자 생략
 
 ```python
 >> help(nvim.current)
@@ -558,8 +558,7 @@ class: middle
 
 ---
 
-### 2단계: 커맨드 인자 생략
-
+### 커맨드 인자 생략
 
 ```python
     @neovim.command('CheckSolution', nargs='*')
@@ -676,7 +675,341 @@ expected output
 
 class: middle, center
 
-![echo를 사용하는 플러그인](./images/echo_test.gif)
+![echo를 사용하는 플러그인](./images/plugin_echo.gif)
 
-echo를 사용하다보니 불편하네요.
+그런데, 출력을 위해 echo를 사용하다보니 불편하네요.
+
+---
+
+class: middle
+
+### 플러그인 만들기 - 출력용 버퍼 만들기
+출력용 버퍼를 만들어서, 그 버퍼에 출력해봅시다.
+
+
+---
+### 플러그인 만들기 - 출력용 버퍼 만들기
+python REPL를 활용해서 API를 파악해봅시다.
+
+--
+
+#### 버퍼 생성 테스트해보기
+```python
+>>> nvim.command('set splitright')
+>>> nvim.command('vnew')
+# 오른쪽에 빈 버퍼가 생성됩니다.
+# vsplit되서 포커싱 됨
+```
+
+--
+
+#### 버퍼 가져오기
+```python
+>>> b = nvim.current.buffer
+>>> b.name
+''
+```
+
+--
+
+#### 모든 버퍼 리스트 가져오기
+```python
+>>> names = [b.name for b in nvim.buffers]
+>>> print(names)
+['', '/Users/jaehak/Projects/algotest/sample/solution.py']
+```
+
+
+---
+
+### 플러그인 만들기 - 출력용 버퍼 만들기
+
+#### 버퍼 설정하기
+```python
+# 이름 설정
+>>> b.name = "__algotest_result"
+
+# 저장 안되고, swap파일 생성 안되게 설정
+>>> nvim.command("setlocal buftype=nofile noswapfile")
+
+```
+
+---
+
+### 플러그인 만들기 - 출력용 버퍼 만들기
+
+#### 버퍼 내용 조작해보기
+```python
+>>> b[0]
+''
+>>> b[0] = 'Hello World!'
+# 1번째 라인이 'Hello World!'로 바뀜
+
+>>> b.append('Hello World2')
+# 2번째 라인에 'Hello World2'가 추가됨
+
+>>> del b[0]
+# 1번째 라인을 제거함
+```
+
+--
+
+##### vim 화면
+
+```vim
+  1                                       |  1 Hello World2
+~                                         |~
+~                                         |~
+~                                         |~
+```
+
+---
+
+class: middle
+
+### 플러그인 만들기 - 출력용 버퍼 만들기
+
+#### 필요한 API는 모두 파악했습니다.
+--
+
+
+이제 플러그인 코드만 짜면 됩니다.
+
+
+---
+
+### 플러그인 만들기 - 출력용 버퍼 만들기
+
+일단 필요한 메소드들을 정의해줍시다.
+
+--
+
+ ---
+#### 1. 버퍼를 생성하거나 가져오는 메소드
+
+```python
+    def create_or_get_buffer(self, name):
+        # 이미 있는 버퍼 중, 이름이 일치하는 버퍼가 있으면 리턴
+        for b in self.nvim.buffers:
+            bname = os.path.basename(b.name)
+
+            if bname == name:
+                return b
+
+        # 새 버퍼 생성
+        self.nvim.command('set splitright')
+        self.nvim.command('vnew')
+
+        b = self.nvim.current.buffer
+        b.name = name
+        self.nvim.command("setlocal buftype=nofile noswapfile")
+        return  b
+```
+--
+
+* 이미 버퍼가 생성되어있으면 해당 버퍼를 리턴해줍니다.
+* 버퍼가 없다면 버퍼를 생성해줍니다.
+
+---
+
+### 플러그인 만들기 - 출력용 버퍼 만들기
+
+#### 2. 버퍼를 초기화는 메소드
+
+```python
+    def clear_buffer(self, buffer):
+        buffer[:] = []
+```
+
+#### 3. 버퍼에 출력을 추가해주는 메소드
+
+```python
+    def append_text(self, buffer, text):
+        lines = text.splitlines()
+        buffer[len(buffer):] = lines
+```
+
+---
+### 플러그인 만들기 - 출력용 버퍼 만들기
+그리고 command에서 출력을 echo 대신 버퍼를 사용하도록 합시다.
+
+
+```diff
+    @neovim.command('CheckSolution', nargs='*')
+    def command(self, args):
+
+        if len(args) == 0:
+            args = [self.nvim.current.buffer.name]
+
++        buffer = self.create_or_get_buffer('__algotest_result')
++        self.clear_buffer(buffer)
++
+        for filename in args:
+            dirname = os.path.dirname(filename)
+            inputfile = os.path.join(dirname, 'input.txt')
+            outputfile = os.path.join(dirname, 'output.txt')
+
+            result = check(filename, inputfile, outputfile)
+
+-            self.nvim.command('echo "%s"' % result)
++            self.append_text(buffer, result)
+
+```
+
+---
+
+class: middle, center
+
+### 결과를 확인해봅시다!
+
+![플러그인 buffer 버전](./images/plugin_buffer.gif)
+
+---
+
+class: middle, center
+
+# 완성!
+
+덕룡이도 만족할꺼예요.
+
+---
+
+class: middle, center
+
+## 그런데... 좀 허전하네요.
+
+--
+### 제목이 'Python으로 만드는 NEOVIM ASYNC PLUGIN' 아니었나요?
+--
+
+비동기는 어디갔죠?
+--
+
+
+이런식이면 저장할 때 엄청 느려지는 것 아닌가요?
+
+---
+class: middle, center
+
+### 실은....
+### 이제까지 만든 것이 비동기 플러그인 입니다.
+
+--
+
+저장할 때 엄청 느려지지 않아요.
+
+---
+
+class: middle
+
+### neovim의 python-client 모듈을 사용하면
+### 기본적으로 비동기로 동작합니다.
+
+ * function call
+ * command
+ * autocmd
+
+---
+### 필요하다면 sync로 동작하게 할 수는 있어요.
+
+```diff
+import neovim
+
+@neovim.plugin
+class SimplePlugin(object):
+
+    def __init__(self, nvim):
+        self.nvim = nvim
+
+-    @neovim.function('SimpleFunc')
++    @neovim.function('SimpleFunc', sync=False)
+    def func(self, args):
+        self.nvim.command('echo "simple func"')
+
+-    @neovim.command('SimpleCommand', range='', nargs='*')
++    @neovim.command('SimpleCommand', range='', nargs='*', sync=False)
+    def command(self, args, range):
+        self.nvim.command('echo "simple command"')
+
+-    @neovim.autocmd('BufEnter', pattern="*.py")
++    @neovim.autocmd('BufEnter', pattern="*.py", sync=False)
+    def autocmd(self):
+        self.nvim.command('echo "simple autocmd"')
+```
+
+---
+class: middle, center
+
+# SYNC vs ASYNC
+이제까지 만들어본 플러그인으로 비교해봅시다.
+
+--
+```python
+time.sleep(5)
+```
+이 들어가있는 코드에서 플러그인 사용해봅시다.
+
+---
+class: middle, center
+
+## SYNC 버전
+
+![SYNC 버전](./images/plugin_sync.gif)
+
+---
+class: middle, center
+
+## SYNC 버전
+### 끔찍하게도 실행시간 5.03초동안 vim이 프리징 됩니다.
+
+---
+class: middle, center
+
+## ASYNC 버전
+
+![ASYNC 버전](./images/plugin_async.gif)
+
+---
+
+class: middle, center
+
+## ASYNC 버전
+###  반면, ASYNC버전은 vim이 프리징되지 않습니다.
+
+---
+
+class: middle
+
+## 최종 정리
+
+1. neovim 좋아요.
+
+--
+
+1. neovim 플러그인은 python으로 쉽게 만들 수 있어요.
+
+--
+
+2. python REPL을 활용하면 neovim API를 쉽게 테스트해볼 수 있어요.
+
+---
+
+class: middle, center
+
+.small_img[![bob](./images/bob.jpg)]
+
+## 없으면 만들어서 씁시다.
+### 우린 코딩할 수 있으니까요.
+
+---
+
+class: middle, center
+
+# QnA
+
+---
+
+class: middle, center
+
+# 감사합니다.
 
