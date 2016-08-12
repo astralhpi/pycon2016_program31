@@ -1,8 +1,8 @@
 name: title
-class: center, middle, inverse
+class: middle, center, inverse
 
+.pycon_logo[![PYCON 2016 APAC](./images/mark-white.png)]
 # .title_upper[Python으로 만드는]<br>NEOVIM ASYNC PLUGIN
-[PYCON 2016 APAC](https://www.pycon.kr/2016apac/)
 
 .author[송재학 ([master@hpi.cc](mailto:master@hpi.cc))]
 
@@ -31,23 +31,23 @@ class: center, middle
 --
 
 class: center, middle
-## 말그대로 vim의 미래
-vim을 적극적으로 리팩토링한 superset
+## 말그대로 Vim의 미래
+Vim을 적극적으로 리팩토링한 superset
 
 ---
 
 class: middle
 # 현황
-#### (2016.08.01 기준)
+#### (2016.08.12 기준)
 
 * stable version: v0.1.4
-  * 안정적이고 실사용 가능함
+  * 안정적이고 실사용 가능합니다.
 
 * github repository
-  * 활성화 되어있음
-      * watch: 954
-      * star: 19,471
-      * fork: 1,374
+  * 활성화 되어있어 있습니다.
+      * watch: 957
+      * star: 19,586
+      * fork: 1,384
 ---
 
 class: middle
@@ -59,7 +59,7 @@ class: middle
 
 - 기본으로 내장된 embedding
 
-- vim에서 쉽게 옮길 수 있음
+- Vim에서 쉽게 옮길 수 있음
 
 ---
 
@@ -67,7 +67,7 @@ class: middle
 
 # 더 강력한 플러그인
 
-* 오늘은 여기에만 집중해봅시다.
+  * 오늘은 여기에만 집중해봅시다.
 
 ---
 
@@ -75,15 +75,17 @@ class: middle
 
 # 더 강력한 플러그인
   
-  * 핵심은 msgpack-rpc
+  * 핵심은 Msgpack-RPC
 
 ---
 
 class: middle
 
-# msgpack-rpc
- * neovim은 서버로 동작합니다.
- * stdin/stdout, socket 등을 통해 neovim의 RPC API를 사용할 수 있습니다.
+# Msgpack-RPC
+
+ * Neovim은 서버로 동작합니다.
+
+ * stdin/stdout, socket 등을 통해 Neovim의 RPC API를 사용할 수 있습니다.
 
 ---
 
@@ -133,7 +135,7 @@ class: middle
 
 --
 
-### 1. neovim 실행
+### 1. Neovim 실행
 
 ```bash
 > # NVIM_LISTEN_ADDRESS: neovim의 RPC 주소 지정
@@ -142,7 +144,7 @@ class: middle
 
 --
 
-### 2. python REPL에서 명령어 실행
+### 2. Python REPL에서 명령어 실행
 
 ``` python
 > python
@@ -161,15 +163,28 @@ class: middle
 ---
 
 class: middle
-# "remote plugin"
+
+## 왜 Python REPL을 사용한거죠?
 
 --
-## neovim의 msgpack-rpc를 통해 동작하는 plugin
+
+* 부담 없이 API를 테스트 해볼 수 있습니다.
+
+* help 함수로 API 문서를 즉석에서 확인할 수 있습니다.
+---
+
+class: middle
+# "REMOTE PLUGIN"
+
+--
+## Neovim의 Msgpack-RPC를 통해 동작하는 플러그인
 
 ---
 
 class: middle
-## 어떤 언어로든 쉽게 neovim plugin 개발 가능!!
+## 어떤 언어로든 쉽게 Neovim 플러그인 개발 가능!!
+
+* 아까 얼마나 많은 언어를 사용하 수 있는지 보셨죠?
 
 ---
 class: middle
@@ -180,7 +195,8 @@ class: middle
 ---
 class: middle
 
-## 간단한 플러그인을 만들어 봅시다
+## 간단한 플러그인을 만들어 봅시다.
+### 파일 하나면 됩니다.
 
 
 ---
@@ -263,7 +279,7 @@ class: middle
         self.nvim.command('echo "simple func"')
 ```
 
-* vim 함수를 등록합니다.
+* Vim 함수를 등록합니다.
 
 --
 
@@ -286,7 +302,7 @@ class: middle
         self.nvim.command('echo "simple command"')
 ```
 
-* vim command를 등록합니다.
+* Vim command를 등록합니다.
 
 --
 
@@ -332,7 +348,7 @@ class: middle
 
 --
 
- 1. nvim의 rpc api를 파이썬 쉘에서 실행해볼 수 있습니다.
+ 1. nvim의 RPC API를 파이썬 쉘에서 실행해볼 수 있습니다.
  
 --
 
@@ -343,7 +359,7 @@ class: middle
 
 --
 
-### => 플러그인을 만들 준비가 되었습니다!
+### => 본격적으로 플러그인을 만들 준비가 되었습니다!
 
 ---
 
@@ -408,7 +424,7 @@ class: middle
 
 ## 플러그인 만들기
 
-* 이 스크립트를 vim에 붙여봅시다.
+* 이 스크립트를 Vim에 붙여봅시다.
 
 ---
 class: middle
@@ -896,7 +912,7 @@ class: middle, center
 
 --
 
-저장할 때 엄청 느려지지 않아요.
+저장할 때 느려지지 않아요.
 
 ---
 
@@ -1006,6 +1022,14 @@ class: middle, center
 class: middle, center
 
 # QnA
+
+---
+
+class: middle, center
+
+## 이 프레젠테이션 자료는
+## [remark.js](http://remarkjs.com/#1)를 사용하여 작성되었으며,
+## [GitHub Pages](https://pages.github.com/)로 호스팅됩니다.
 
 ---
 
