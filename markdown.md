@@ -332,7 +332,7 @@ class: middle
 
 --
 
- 1. nvim의 RPC API를 Python REPL에서 실행해볼 수 있습니다.
+ 1. nvim의 rpc api를 파이썬 쉘에서 실행해볼 수 있습니다.
  
 --
 
@@ -629,7 +629,7 @@ class: middle
 --
 
 ```python
-    @neovim.autocmd("BufWritePost", pattern="*.py")
+    @neovim.autocmd("BufWritePost", pattern="*.py", sync=True)
     def on_bufwrite_post(self):
         filename = self.nvim.current.buffer.name
 
