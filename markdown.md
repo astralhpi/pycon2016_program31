@@ -24,6 +24,37 @@ class: middle
 
 class: center, middle
 
+### 저는 오랫동안 vim을 주력 에디터로 쓰고 **싶었습니다.**
+
+--
+
+#### vim은 위대한 텍스트 에디터이지만
+#### 매우 주관적인 장애물이 좀 있었습니다.
+
+---
+class: middle
+
+.logo[
+  ![vim logo](./images/vim_editor.gif)
+]
+
+* 로고랑 사이트가 오래됨.
+
+* hip 하지 않음.
+
+* 개인적으로 Vimscript가 좀 별로임.
+  * 다른 언어 붙이긴 귀찮음 (빌드할 때부터 신경 써줘야함)
+
+* 커뮤니티보다는 개인의 노력으로 개발되고 있음.
+
+* ** 대부분의 플러그인이 sync로 동작하여, 플러그인에 의해 쉽게 느려짐**
+
+  * async로 동작하는 플러그인 개발이 쉽지 않음. 
+
+
+---
+class: center, middle
+
 .logo[
   ![neovim logo](./images/neovim-logo.svg)
 ]
@@ -35,23 +66,71 @@ class: center, middle
 Vim을 적극적으로 리팩토링한 superset
 
 ---
+class: middle
+
+.logo[
+  ![neovim logo](./images/neovim-logo.svg)
+]
+
+* 로고와 사이트가 최근에 만들어졌는가? (O)
+
+--
+
+* hip한가? (O)
+
+--
+
+* 쉽게 다른 언어로 플러그인 개발을 할 수 있는가? (O)
+
+--
+
+* GitHub에서 핫한가? (O)
+  * watch: 957
+  * star: 19,586
+  * fork: 1,384
+
+--
+
+* async 플러그인 개발이 쉬운가? (O)
+
+
+---
+
+class: center, middle
+
+### 다 좋은데, 안정적일까?
+
+---
 
 class: middle
 # 현황
 #### (2016.08.12 기준)
 
 * stable version: v0.1.4
-  * 안정적이고 실사용 가능합니다.
 
-* github repository
-  * 활성화 되어있어 있습니다.
-      * watch: 957
-      * star: 19,586
-      * fork: 1,384
+  * v0.1.0 목표가 stable한 빌드.
+    * v0.1.0 이후로도 릴리즈가 4번이나 됨.
+
+  * 현재 안정적이고 실사용 가능.
+
+---
+
+class: center, middle
+
+
+.logo[
+  ![어머 저건! 꼭 써봐야해~](./images/imustbuy.jpg)
+
+]
+
+## 지금 당장 Neovim을 설치해야겠다! 
+
 ---
 
 class: middle
 # 특징 
+
+공식 사이트에 따르면...
 
 - **더 강력한 플러그인**
 
@@ -121,6 +200,9 @@ class: middle
 class: middle
 
 # Hello World!
+
+--
+
 ### python-neovim 모듈을 사용해서 "Hello World!" 출력 해봅시다.
 
 ---
@@ -380,6 +462,11 @@ class: middle
 * 코드를 저장할 때마다 자동으로 코드가 실행되었으면 합니다.
 
 
+--
+
+=> 우리가 해결할 수 있을 것 같습니다!
+
+
 ---
 class: middle
 
@@ -515,17 +602,17 @@ succeed!
 
 class: middle
 
-### 커맨드 인자 생략
+### 그런데...
 
- * 하지만 매번 인자를 넣어줘야하는 것이 번거롭네요.
+#### 덕룡이는 귀차니스트입니다.
+
+ * 하지만 매번 인자를 넣어줘야하는 것이 귀찮다네요.
 
  * 인자를 생략하면 현재 파일의 경로가 들어가게 합시다.
 
 ---
 
 class: middle
-
-### 커맨드 인자 생략
 
 그런데 API를 모르다보니, 어디서 시작을 해야할지 모르겠네요.
 --
@@ -609,7 +696,11 @@ input
 
 class: middle
 
-## 그래도 귀찮네요.
+![bothering](./images/bothering.jpeg)
+## 그래도 귀찮다고 하네요.
+문제는 어떻게 푸나 몰라.
+
+--
 
  * 현재까지는 :CheckSolution 커맨드를 실행해줘야합니다.
  
@@ -694,6 +785,15 @@ class: middle, center
 ![echo를 사용하는 플러그인](./images/plugin_echo.gif)
 
 그런데, 출력을 위해 echo를 사용하다보니 불편하네요.
+
+---
+class: middle, center
+
+![책임감](./images/sense_of_responsibility.jpg)
+### 덕룡이가 이대로는 쓸 수없다며 책임감을 요구하네요.
+
+--
+#### 출력 전용 버퍼를 만들어 만족시켜 줍시다. 
 
 ---
 
@@ -886,7 +986,14 @@ class: middle, center
 
 # 완성!
 
-덕룡이도 만족할꺼예요.
+---
+
+class: middle, center
+
+
+![고객 만족](./images/wow.jpg)
+### 덕룡이도 만족할꺼예요.
+#### 덕룡이가 우리 고객은 아니지만요...
 
 ---
 
@@ -976,6 +1083,8 @@ class: middle, center
 class: middle, center
 
 ## SYNC 버전
+
+![이 얼마나 끔찍하고 무시무시한 플러그인이니?](./images/terrible.png)
 ### 끔찍하게도 실행시간 5.03초동안 vim이 프리징 됩니다.
 
 ---
@@ -990,6 +1099,8 @@ class: middle, center
 class: middle, center
 
 ## ASYNC 버전
+
+![아... 회복된다.](./images/healing.jpeg)
 ###  반면, ASYNC버전은 vim이 프리징되지 않습니다.
 
 ---
