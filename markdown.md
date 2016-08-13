@@ -384,7 +384,13 @@ class: middle
 class: middle
 
 ## 간단한 리모트 플러그인을 만들어 봅시다.
-### 파일 하나면 됩니다.
+### 파일 하나만 있으면 됩니다.
+
+???
+* 정말로
+  * vim 파일 필요없고
+  * 따로 연결해주기 위한 설정도 필요 없음
+  * 적절한 경로에 파일 하나만 들어주면 됨
 
 ---
 
@@ -416,6 +422,26 @@ class SimplePlugin(object):
         self.nvim.command('echo "simple autocmd"')
 ```
 
+???
+* 진짜 이게 다임
+* 실은 하는게 없는 코드라서 그럼
+* 아마 다들 보는 순간 100% 파악하셨을꺼임
+* python이 기본 언어인 sublime text보다도 간단함
+
+
+# 코드 설명
+* 다들 필요없으시겠지만, 그래도 시간을 채우기 위해 설명하겠음
+* 그냥 모듈 가져오고
+* plugin 클래스 선언해주고
+* function 등록함
+* command 등록함
+* autocmd 등록함 (이건 이벤트 처리용으로 많이 쓰임)
+
+등록한 function, command는 자동으로 바인딩되서 VimScript로 짠 것처럼 사용 가능.
+VimScript 안써도 되서 좋음
+
+그냥 이 파일을 경로에 추가한 뒤,
+
 ---
 
 class: middle
@@ -427,105 +453,13 @@ class: middle
 
 ---
 
-class: middle
+class: middle, center
 
-## 참 쉽죠?
+![bob](./images/bob.jpg)
 
---
-
-### 그래도 차근차근 살펴봅시다.
-
----
-
-class: middle
-
-## SimplePlugin 살펴보기- class 선언 
-
-```python
-import neovim
-import time
-
-@neovim.plugin
-class SimplePlugin(object):
-
-    def __init__(self, nvim):
-        self.nvim = nvim
-```
-
-플러그인 class를 선언하고 생성자를 지정해 줍니다.
-
----
-
-class: middle
-
-## SimplePlugin 살펴보기- vim 함수 등록
-
-```python
-    @neovim.function('SimpleFunc')
-    def func(self, args):
-        self.nvim.command('echo "simple func"')
-```
-
-* Vim 함수를 등록합니다.
-
---
-
-#### 다른 vim 함수와 똑같이 사용할 수 있습니다.
-```vim
-:call SimpleFunc()
-"simple func"
-
-```
-
----
-
-class: middle
-
-## SimplePlugin 살펴보기- command 등록
-
-```python
-    @neovim.command('SimpleCommand', range='', nargs='*')
-    def command(self, args, range):
-        self.nvim.command('echo "simple command"')
-```
-
-* Vim command를 등록합니다.
-
---
-
-#### 마찬가지로, vim의 다른 command와 똑같이 사용할 수 있습니다.
-```vim
-:SimpleCommand
-"simple command"
-```
- 
----
-
-class: middle
-
-## SimplePlugin 살펴보기 - autocmd 등록
-
-```python
-    @neovim.autocmd('BufEnter', pattern="*.py")
-    def autocmd(self):
-        self.nvim.command('echo "simple autocmd"')
-```
-
-
-* autocmd를등록합니다.
-  * autocmd는 이벤트 처리를 위해 사용할 수 있습니다.
-
-* 위의 autocmd는...
-  * 버퍼에 들어가는 경우 실행되는 autocmd 입니다.
-  * 확장자가 py로 끝나는 경우에만 실행됩니다.
-
---
-
-```vim
-:help autocommand-events
-```
-
-명령어로 지원하는 이벤트를 확인할 수 있습니다.
+???
+* 참 쉽죠?
+* 너무 쉬워서 밥 선생님이 안어울림
 
 ---
 
@@ -539,10 +473,11 @@ class: middle
  
 --
 
- 2. 플러그인을 만들 수 있습니다.
+ 2. 리모트 플러그인을 만들 수 있습니다.
      1. 함수를 만들 수 있습니다.
      2. command를 만들 수 있습니다.
      3. 이벤트를 처리할 수 있습니다. (autocmd)
+
 
 ---
 
@@ -557,6 +492,10 @@ class: middle
 
 ## 플러그인 만들어보기
 
+???
+* 실용적인 플러그인 만들기
+* 개인적인 용도로 만드는 것
+
 ---
 
 class: middle
@@ -565,10 +504,13 @@ class: middle
 
 * 덕룡이는 최근 Python으로 알고리즘 문제를 풀고 있습니다.
 
-* 그런데, 수동으로 코드를 실행해보는 것이 너무 귀찮습니다. 
+* 그런데, 제대로 풀었는지 확인하기가 너무 귀찮습니다. 
 
-* 코드를 저장할 때마다 자동으로 코드가 실행되었으면 합니다.
+* 코드를 저장할 때마다 자동으로 체점이 되었으면 합니다.
 
+???
+* 덕룡이는 제 친구임
+* 파이콘에 안온다고 하길레 마음놓고 이름을 도용함
 
 ---
 
@@ -576,16 +518,26 @@ class: middle
 
 ### 우리가 해결할 수 있을 것 같습니다!
 
-
 ---
 class: middle
 
-## 플러그인 만들기
+## 채점 스크립트 만들기
 
-* 다행히 덕룡이는 정답 체크를 할 수 있는 스크립트를 미리 만들어 뒀습니다.
+* Neovim을 켭니다.
+
+???
+* 우선 채점을 위한 스크립트 부터 개발해야함
+
+--
+
+![더 이상의 자세한 설명은 생략한다.](./images/skip.jpg)
+
+???
+* 그리고 자세한 설명은 생략하겠습니다.
+
 
 ---
-### 미리 만들어둔 스크립트
+### 완성된 스크립트
 
 ```bash
     > python checker.py solution.py
@@ -616,6 +568,11 @@ class: middle
     ==============================
     succeed!
 ```
+
+???
+
+* 문제를 푼 소스 코드를 받아서
+* input을 넣어주고 output과 대조해주는 스크립트
 ---
 class: middle
 
@@ -633,6 +590,9 @@ class: middle
 ```
 
 로 실행할 수 있는 커맨드를 만들어 봅시다.
+
+???
+우선 간단하게 만들어봅시다.
 
 ---
 class: middle
@@ -718,7 +678,6 @@ class: middle
 class: middle
 
 .small_img[![귀차니스트](./images/bothering_man.jpeg)]
-#### 덕룡이는 귀차니스트입니다.
 
  * 하지만 매번 인자를 넣어줘야하는 것이 귀찮다네요.
 
@@ -732,15 +691,15 @@ class: middle
 --
 
 
-[Hello World!에서 했던 것처럼](#15) python REPL을 사용해봅시다.
+[Hello World!에서 했던 것처럼](#15) Python 쉘을 사용해봅시다.
 
 
 ---
 
-### 커맨드 인자 생략
+### Python 쉘
 
 ```python
->> help(nvim.current)
+>>> help(nvim.current)
 # nvim.current에 buffer가 있는 것을 확인함.
 
 ```
@@ -748,17 +707,19 @@ class: middle
 --
 
 ```python
->> help(nvim.current.buffer)
+>>> help(nvim.current.buffer)
 # buffer에 name이 있는 것을 확인함.
 ```
 
 --
 
 ```python
->> nvim.current.buffer.name
+>>> nvim.current.buffer.name
 '/Users/jaehak/Projects/algotest/sample/solution.py'
 ```
-우리에게 필요한 내용인 것 같습니다.
+
+???
+* buffer의 name은 해당되는 파일 네임인 것 같음.
 
 --
 
@@ -773,9 +734,14 @@ class: middle
 
 이 API를 사용하면 될 것 같습니다!
 
+???
+* 만약을 대비해서 다른 파일을 열면 그 파일의 경로가 name이 되는 지 확인
+* name이 바뀌었고, 적절함
+* 이 API를 쓰면, 현재 버퍼에 해당되는 파일을 알 수 있을 듯
+
 ---
 
-### 커맨드 인자 생략
+### 바뀐 커맨드 코드
 
 ```python
     @neovim.command('CheckSolution', nargs='*')
@@ -832,7 +798,7 @@ class: middle
 
 class: middle
 
-### 플러그인 만들기 - autocmd 등록하기
+## Neovim
 
 ```vim
 # autocmd 이벤트 리스트 확인하기
@@ -843,7 +809,7 @@ class: middle
 ---
 class: middle
 
-### 플러그인 만들기 - autocmd 등록하기
+### BufWritePost autocmd
 
 'BufWritePost' autocmd를 등록합시다.
 
@@ -866,7 +832,7 @@ class: middle
 ---
 class: middle
 
-### 플러그인 만들기 - autocmd 등록하기
+### Neovim
 
 ```vim
 :w
@@ -898,16 +864,23 @@ class: middle, center
 
 ![echo를 사용하는 플러그인](./images/plugin_echo.gif)
 
-그런데, 출력을 위해 echo를 사용하다보니 불편하네요.
+그런데, 저장할 때마다 이러네요.
+
+???
+* 도움이 되라고 만든건데, 저장할 때마다 이 모양이예요.
+
 
 ---
 class: middle, center
 
-![책임감](./images/sense_of_responsibility.jpg)
-### 덕룡이가 이대로는 쓸 수없다며 책임감을 요구하네요.
+![똥 치우기](./images/dog.jpg)
+### 똥을 만들어 버렸습니다.
 
---
-#### 출력 전용 버퍼를 만들어 만족시켜 줍시다. 
+???
+* 유용한 플러그인이 아닌 똥을 싸버렸습니다.
+* 대충 만들어주려고 했는데, 일이 커지네요.
+* 그래도 스스로 싼 똥은 치워야겠죠.
+* 출력 전용 버퍼를 만들어 줍시다.
 
 ---
 
@@ -918,8 +891,8 @@ class: middle
 
 
 ---
-### 플러그인 만들기 - 출력용 버퍼 만들기
-python REPL를 활용해서 API를 파악해봅시다.
+### API 파악하기
+python 쉘을 활용해서 API를 파악해봅시다.
 
 --
 
@@ -1035,11 +1008,6 @@ class: middle
         self.nvim.command("setlocal buftype=nofile noswapfile")
         return  b
 ```
---
-
-* 이미 버퍼가 생성되어있으면 해당 버퍼를 리턴해줍니다.
-* 버퍼가 없다면 버퍼를 생성해줍니다.
-
 ---
 
 ### 플러그인 만들기 - 출력용 버퍼 만들기
@@ -1107,7 +1075,9 @@ class: middle, center
 
 ![고객 만족](./images/wow.jpg)
 ### 덕룡이도 만족할꺼예요.
-#### 덕룡이가 우리 고객은 아니지만요...
+
+???
+* 똥을 치우는 것을 넘어, 고객감동을 실현했네요.
 
 ---
 
@@ -1193,6 +1163,10 @@ class: middle, center
 
 ![SYNC 버전](./images/plugin_sync.gif)
 
+
+???
+* 저장 이후 5.03초 동안 프리징되는 것을 볼 수 있음.
+
 ---
 class: middle, center
 
@@ -1200,6 +1174,9 @@ class: middle, center
 
 ![이 얼마나 끔찍하고 무시무시한 플러그인이니?](./images/terrible.png)
 ### 끔찍하게도 실행시간 5.03초동안 vim이 프리징 됩니다.
+
+???
+* 이런 플러그인은 사용할 수 없을 것임.
 
 ---
 class: middle, center
@@ -1217,6 +1194,10 @@ class: middle, center
 ![아... 회복된다.](./images/healing.jpeg)
 ###  반면, ASYNC버전은 vim이 프리징되지 않습니다.
 
+???
+* 같은 플러그인이지만, 사용 가능한 수준임
+* 쾌적하게 저장할 수 있음
+
 ---
 
 class: middle
@@ -1224,6 +1205,8 @@ class: middle
 ## 최종 정리
 
 1. neovim 좋아요.
+
+  - 로고에 그라데이션도 들어가 있어요.
 
 --
 
