@@ -49,7 +49,7 @@ class: middle
 
 * VimScript 코딩하기 싫음
 
-* ** 대부분의 플러그인이 sync로 동작하여, 플러그인에 의해 쉽게 느려짐 **
+* ** 대부분의 플러그인이 sync로 동작함 **
 
 ???
 
@@ -72,8 +72,9 @@ class: middle
 
 # sync
 
-* 이건 심각한 문제
-* async로 만들 수 있는 부분은 한정적
+* vim에 async API가 있긴 함
+  * 올해 2월에 추가되었음.
+  * 하지만, 공짜가 아님.
 * 플러그인 떡칠하고 싶은데...
 * Unity C# 코딩, 자동 완성 없으면 힘듬
     * but, vim에서 C# 자동완성을 붙이면 너무 느려짐 
@@ -1197,6 +1198,36 @@ class: middle, center
 ???
 * 같은 플러그인이지만, 사용 가능한 수준임
 * 쾌적하게 저장할 수 있음
+
+---
+
+class: middle
+
+## Neovim 플러그인 소개
+
+* deoplete (https://github.com/Shougo/deoplete.nvim)
+  * 비동기 자동완성 시스템
+
+* Neomake (https://github.com/neomake/neomake)
+  * 비동기 :make
+
+* vim-grepper (https://github.com/mhinz/vim-grepper)
+  * 쉽게 vim 상에서 Grep 사용할 수 있도록 도와주는 플러그인
+
+
+???
+* deoplete => 힐링
+  * 자동완성 함수만 연결해주면 비동기로 자동완성 됨
+  * 기존 vim 자동완성은 타이핑 중에 자동으로 후보가 뜨게 설정하면 타이핑이 느려져서
+  * 쓸게 못 됐는데, deoplete를 쓰면 자동완성이 더이상 부담스럽지 않음
+  * 추가 자동완성 source를 만들기도 쉬움. 파이썬으로
+  * 정리 및 배포는 안하고 repo만 파놓은 상태이지만, C# 자동완성도 직접 간단하게
+  * 만들어서 사용 중. 아주 쾌적함
+  * python, go, swift, javascript, C, 하스켈 등 용 자동완성 소스는 이미 있음.
+
+* Neomake => 비동기로 make를 할 수 있는 툴
+
+* vim-grepper => vim에서도 async로 동작함. 예전에는 안 그랬는디 올해 2월에 vim에 async 기능이 생겨서.
 
 ---
 
