@@ -826,7 +826,7 @@ class: middle
 --
 
 ```python
-    @neovim.autocmd("BufWritePost", pattern="*.py", sync=True)
+    @neovim.autocmd("BufWritePost", pattern="*.py")
     def on_bufwrite_post(self):
         filename = self.nvim.current.buffer.name
 
@@ -1139,17 +1139,17 @@ class SimplePlugin(object):
         self.nvim = nvim
 
 -    @neovim.function('SimpleFunc')
-+    @neovim.function('SimpleFunc', sync=False)
++    @neovim.function('SimpleFunc', sync=True)
     def func(self, args):
         self.nvim.command('echo "simple func"')
 
 -    @neovim.command('SimpleCommand', range='', nargs='*')
-+    @neovim.command('SimpleCommand', range='', nargs='*', sync=False)
++    @neovim.command('SimpleCommand', range='', nargs='*', sync=True)
     def command(self, args, range):
         self.nvim.command('echo "simple command"')
 
 -    @neovim.autocmd('BufEnter', pattern="*.py")
-+    @neovim.autocmd('BufEnter', pattern="*.py", sync=False)
++    @neovim.autocmd('BufEnter', pattern="*.py", sync=True)
     def autocmd(self):
         self.nvim.command('echo "simple autocmd"')
 ```
