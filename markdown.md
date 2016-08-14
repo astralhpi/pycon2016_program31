@@ -44,6 +44,8 @@ class: middle
 
 * 로고에 그라데이션이 없음
 
+* [사이트](http://www.vim.org/)가 예쁘지 않음
+
 * 힙하지 않음
 
 * VimScript 코딩하기 싫음
@@ -118,6 +120,11 @@ class: middle
 
 --
 
+* [사이트](https://neovim.io/)가 예쁜가? **(0)**
+
+    "A nice looking website, that’s one thing Neovim did right."
+        —Bram Moolenaar
+--
 * 힙한가? **(O)**
 
 --
@@ -1271,6 +1278,13 @@ class: middle, center
 ## 이 프레젠테이션 자료는
 ## [remark.js](http://remarkjs.com/#1)를 사용하여 작성되었으며,
 ## [GitHub Pages](https://pages.github.com/)로 호스팅됩니다.
+
+---
+
+class: middle, center
+
+## OST 206호
+#### Neovim, 텍스트 에디터에 대해서 이야기 나눠봅시다.
 
 ---
 
