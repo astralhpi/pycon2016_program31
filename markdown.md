@@ -1283,12 +1283,5 @@ class: middle, center
 
 class: middle, center
 
-## OST 206호
-#### Neovim, 텍스트 에디터에 대해서 이야기 나눠봅시다.
-
----
-
-class: middle, center
-
 # 감사합니다.
 
