@@ -123,7 +123,7 @@ class: middle
 * [사이트](https://neovim.io/)가 예쁜가? **(0)**
 
     "A nice looking website, that’s one thing Neovim did right."
-        —Bram Moolenaar
+        —Bram Moolenaar (vim의 창시자)
 --
 * 힙한가? **(O)**
 
